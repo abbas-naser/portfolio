@@ -9,8 +9,8 @@ export default function Certifications() {
           <li className="education-list">
             Electrical Installation Engineer License
           </li>
-          <p>
-            &nbsp; &nbsp; &nbsp; &nbsp;Electricity and Water Authority, Bahrain
+          <p className="about-text-after-list">
+            Electricity and Water Authority, Bahrain
           </p>
         </div>
         <p className="education-date">Oct 2020</p>
@@ -22,8 +22,8 @@ export default function Certifications() {
           <li className="education-list">
             Electrical Installation Wireman License
           </li>
-          <p>
-            &nbsp; &nbsp; &nbsp; &nbsp;Electricity and Water Authority, Bahrain
+          <p className="about-text-after-list">
+            Electricity and Water Authority, Bahrain
           </p>
         </div>
         <p className="education-date">Jul 2019</p>

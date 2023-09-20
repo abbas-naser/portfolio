@@ -7,7 +7,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
   gap: 5px;
   padding: 5px 10px;
   border-top: 2px solid var(--teal);
@@ -22,6 +21,7 @@
   border-radius: 5px;
   font-family: "Lora", serif;
   font-weight: 500;
+  font-size: 15px;
 }
 .selected-about-btn {
   font-family: "Lora", serif;
@@ -42,6 +42,9 @@
 .about-hr {
   border: none;
   border-top: 1px solid rgba(226, 226, 226, 0.795);
+}
+.about-text-after-list {
+  padding-left: 20px;
 }
 
 @media (min-width: 760px) {

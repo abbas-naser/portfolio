@@ -8,7 +8,7 @@ export default function Experience() {
         <div className="experience-flex">
           <div>
             <li className="experience-list">Electrical Engineer</li>
-            <p>&nbsp; &nbsp; &nbsp; &nbsp;SKD Group, Bahrain</p>
+            <p className="about-text-after-list">SKD Group, Bahrain</p>
           </div>
           <p className="experience-date">Oct - Dec 2022</p>
         </div>
@@ -33,7 +33,9 @@ export default function Experience() {
         <div className="experience-flex">
           <div>
             <li className="experience-list">Electrical Engineer</li>
-            <p>&nbsp; &nbsp; &nbsp; &nbsp;Aqua Technology Transfer, Bahrain</p>
+            <p className="about-text-after-list">
+              Aqua Technology Transfer, Bahrain
+            </p>
           </div>
           <p className="experience-date">Oct 2020 - Sep 2022</p>
         </div>

@@ -4,7 +4,7 @@ export default function Skills() {
     <div className="skills">
       <h3 className="skills-title">Currently learning</h3>
       <div className="currently-learning">
-        <li>React Native</li>
+        <li>React Native.</li>
       </div>
       <hr className="about-hr " />
       <br />
