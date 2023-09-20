@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 5px;
 }
 .about-btns-group button {
   background-color: var(--backgrounColor);
@@ -14,18 +14,23 @@
   border: none;
   text-transform: uppercase;
   font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 5px;
 }
 .selected-about-btn {
   font-weight: bold;
+  background-color: var(--light-grey) !important;
   color: var(--teal) !important;
+  text-decoration: underline;
 }
 .about-btns-group button:hover {
   color: var(--teal);
+  background-color: var(--light-grey) !important;
 }
 .about-group-btn-hr {
   margin: 10px 0 20px 0;
   border: none;
-  border-top: 1px solid var(--teal);
+  border-top: 2px solid var(--teal);
 }
 .about-content {
   padding: 20px 20px;
