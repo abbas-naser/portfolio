@@ -8,6 +8,10 @@
 }
 .profile-image-container {
   width: 100%;
+  border: 2px solid var(--teal);
+  border-radius: 50%;
+  box-sizing: content-box;
+  padding: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
