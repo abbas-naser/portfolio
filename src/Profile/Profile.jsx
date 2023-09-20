@@ -17,8 +17,17 @@ export default function Profile() {
           avid learner motivated by solving problems, developing responsive full
           stack web applications.
         </p>
-        {/* <p>abbass.abdulla.naser@gmail.com</p>
-        <p>33791746</p> */}
+
+        <div className="profile-contact">
+          {" "}
+          <p>Email: abbass.abdulla.naser@gmail.com</p>
+          <p>
+            Linkedin:{" "}
+            <a href="http://www.linkedin.com/in/abbas-naser" target="_blank">
+              abbas-naser
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );

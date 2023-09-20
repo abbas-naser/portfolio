@@ -27,7 +27,7 @@ export default function Experience() {
           </li>
         </div>
       </>
-      <hr />
+      <hr className="about-hr " />
       <br />
       <>
         <div className="experience-flex">

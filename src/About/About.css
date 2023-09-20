@@ -1,5 +1,4 @@
 .about-container {
-  background-color: white;
   width: 100%;
   padding: 20px;
 }
@@ -10,7 +9,7 @@
   gap: 20px;
 }
 .about-btns-group button {
-  background-color: white;
+  background-color: var(--backgrounColor);
   color: grey;
   border: none;
   text-transform: uppercase;
@@ -23,29 +22,32 @@
 .about-btns-group button:hover {
   color: var(--teal);
 }
-.hr-about {
+.about-group-btn-hr {
   margin: 10px 0 20px 0;
   border: none;
-  border-top: 1px solid var(--almost-black);
+  border-top: 1px solid var(--teal);
 }
 .about-content {
   padding: 20px 20px;
   min-height: 300px;
 }
+.about-hr {
+  /* margin: 10px 0 20px 0; */
+  border: none;
+  border-top: 1px solid rgba(226, 226, 226, 0.795);
+}
 
-@media (min-width: 600px) {
+@media (min-width: 760px) {
   .about-btns-group button {
-    background-color: white;
+    background-color: var(--backgrounColor);
     border: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
   }
-}
-@media (min-width: 600px) {
   .about-content {
     padding: 20px 80px;
   }
-  .hr-about {
-    min-width: 500px;
+  .about-group-btn-hr {
+    /* margin: 10px 60px 20px 60px; */
   }
 }

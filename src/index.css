@@ -9,18 +9,6 @@
   --light-grey: #f9f7f7;
   --background-color: #f9f7f7;
   --almost-black: rgb(34, 40, 49);
-
-  /* --light-blue: #dbe2ef;
-  --blue: #3f72af;
-  --dark-blue: #112d4e;
-  --danger: red;
-  --error: orange;
-  --success: #64ccc5;
-  --purble: #4b03e6;
-  --form-field-description: #8d8d8d;
-  --sideBarWidth: 250px;
-  --sideBarBreakPoint: 800px;
-  --sideBarBackground: #173d69; */
 }
 
 *,
@@ -32,7 +20,8 @@ img {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: white;
   font-family: "Lato", sans-serif;
   color: var(--dark-grey);
+  /* max-width: var(--max-width); */
 }

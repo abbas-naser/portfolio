@@ -6,7 +6,7 @@ export default function Skills() {
       <div className="currently-learning">
         <li>React Native</li>
       </div>
-      <hr />
+      <hr className="about-hr " />
       <br />
       <h3 className="skills-title">Highlighted Skills</h3>
       <li>
@@ -21,7 +21,7 @@ export default function Skills() {
         <span className="skills-li-bold">Databases:</span> MongoDB.
       </li>
 
-      <hr />
+      <hr className="about-hr " />
       <br />
       <h3 className="skills-title">Languages</h3>
       <li>Arabic (Native) , English (Intermediate).</li>

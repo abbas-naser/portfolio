@@ -15,7 +15,7 @@ export default function Certifications() {
         </div>
         <p className="education-date">Oct 2020</p>
       </div>
-      <hr />
+      <hr className="about-hr " />
       <br />
       <div className="eduation-flex">
         <div>

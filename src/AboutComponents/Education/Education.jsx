@@ -11,7 +11,7 @@ export default function Education() {
         </div>
         <p className="education-date">Jun - Sep 2023</p>
       </div>
-      <hr />
+      <hr className="about-hr " />
       <br />
       <div className="eduation-flex">
         <div>
