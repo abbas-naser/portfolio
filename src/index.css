@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+:root {
+  --max-width: 1500px;
+  --horizontal-margin: 20px;
+  --border-radius: 5px;
+  --teal: rgb(0, 173, 181);
+  --dark-grey: rgb(57, 62, 70);
+  /* --light-grey: rgb(238, 238, 238); */
+  --light-grey: #f9f7f7;
+  --background-color: #f9f7f7;
+  --almost-black: rgb(34, 40, 49);
+
+  /* --light-blue: #dbe2ef;
+  --blue: #3f72af;
+  --dark-blue: #112d4e;
+  --danger: red;
+  --error: orange;
+  --success: #64ccc5;
+  --purble: #4b03e6;
+  --form-field-description: #8d8d8d;
+  --sideBarWidth: 250px;
+  --sideBarBreakPoint: 800px;
+  --sideBarBackground: #173d69; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+p,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Lato", sans-serif;
+  color: var(--dark-grey);
 }

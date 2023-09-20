@@ -1,0 +1,25 @@
+.eduation-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-bottom: 20px;
+}
+.education-list {
+  font-weight: bold;
+}
+.education-date {
+  width: 100%;
+  margin-top: 5px;
+  text-align: end;
+}
+@media (min-width: 600px) {
+  .eduation-flex {
+    flex-wrap: nowrap;
+  }
+  .education-date {
+    width: fit-content;
+    text-align: end;
+    margin-top: 0;
+  }
+}

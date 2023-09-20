@@ -1,0 +1,43 @@
+.about-container {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+.about-btns-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.about-btns-group button {
+  background-color: white;
+  color: grey;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.selected-about-btn {
+  font-weight: bold;
+  color: var(--teal) !important;
+}
+.about-btns-group button:hover {
+  color: var(--teal);
+}
+.hr-about {
+  margin: 10px 0 0 0;
+  border: none;
+  border-top: 1px solid var(--almost-black);
+}
+.about-content {
+  padding: 20px 20px;
+  min-height: 300px;
+}
+
+@media (min-width: 600px) {
+  .about-btns-group button {
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+}
