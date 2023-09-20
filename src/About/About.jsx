@@ -3,6 +3,7 @@ import { useState } from "react";
 import Education from "../AboutComponents/Education/Education";
 import Certifications from "../AboutComponents/Certifications/Certifications";
 import Experience from "../AboutComponents/Experience/Experience";
+import Skills from "../AboutComponents/Skills/Skills";
 
 export default function About() {
   const [aboutComponent, setAboutComponent] = useState("skills");
@@ -44,11 +45,7 @@ export default function About() {
       <hr className="hr-about" />
 
       <div className="about-content">
-        {aboutComponent === "skills" && (
-          <div>
-            <h1>skills</h1>
-          </div>
-        )}
+        {aboutComponent === "skills" && <Skills />}
         {aboutComponent === "education" && <Education />}
         {aboutComponent === "certifications" && <Certifications />}
         {aboutComponent === "experience" && <Experience />}

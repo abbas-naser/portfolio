@@ -2,7 +2,7 @@ import "./Certifications.css";
 export default function Certifications() {
   return (
     <>
-      <h3>Electrical Certifications:</h3>
+      <h3>Electrical Certifications</h3>
       <br />
       <div className="eduation-flex">
         <div>
@@ -15,6 +15,8 @@ export default function Certifications() {
         </div>
         <p className="education-date">Oct 2020</p>
       </div>
+      <hr />
+      <br />
       <div className="eduation-flex">
         <div>
           <li className="education-list">

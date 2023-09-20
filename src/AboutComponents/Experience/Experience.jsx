@@ -2,7 +2,7 @@ import "./Experience.css";
 export default function Experience() {
   return (
     <>
-      <h3>Electrical Experience:</h3>
+      <h3>Electrical Experience</h3>
       <br />
       <>
         <div className="experience-flex">
@@ -27,6 +27,8 @@ export default function Experience() {
           </li>
         </div>
       </>
+      <hr />
+      <br />
       <>
         <div className="experience-flex">
           <div>

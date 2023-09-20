@@ -1,0 +1,16 @@
+.skills {
+  /* text-align: center; */
+}
+.skills-title {
+  margin-bottom: 5px;
+}
+
+.skills li {
+  margin: 10px auto;
+}
+.skills-li-bold {
+  font-weight: bold;
+}
+.currently-learning {
+  margin-bottom: 20px;
+}
