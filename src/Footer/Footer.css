@@ -1,0 +1,11 @@
+footer {
+  margin-top: auto;
+  padding: 10px 0;
+  border: none;
+  width: 100%;
+  border-top: 1px solid var(--almost-black);
+}
+
+footer p {
+  text-align: center;
+}

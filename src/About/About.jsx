@@ -42,7 +42,6 @@ export default function About() {
         </button>
       </div>
 
-      <hr className="about-group-btn-hr" />
       <div className="about-content">
         {aboutComponent === "skills" && <Skills />}
         {aboutComponent === "education" && <Education />}
