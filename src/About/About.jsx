@@ -12,6 +12,7 @@ export default function About() {
       <div className="about-container">
         {/* btns group */}
         <div className="about-btns-group">
+          <h2 className="group-btns-title">About me</h2>
           <button
             className={aboutComponent === "skills" && "selected-about-btn"}
             onClick={() => setAboutComponent("skills")}

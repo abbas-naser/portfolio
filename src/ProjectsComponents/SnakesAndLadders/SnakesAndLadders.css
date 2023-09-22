@@ -1,0 +1,13 @@
+.first-p {
+  text-indent: 20px;
+}
+.first-p::first-letter {
+  font-weight: bold;
+}
+.last-p {
+  background-color: var(--light-blue);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  width: fit-content;
+}

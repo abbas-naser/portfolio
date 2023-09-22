@@ -27,3 +27,12 @@ body {
   font-family: "Lora", serif;
   color: var(--dark-blue);
 }
+
+a {
+  color: var(--blue);
+  text-decoration: underline;
+  font-weight: normal;
+}
+.bold-text {
+  font-weight: bold;
+}

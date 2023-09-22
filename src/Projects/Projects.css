@@ -6,6 +6,7 @@
   background-color: white;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 8px;
   padding: 8px 10px;
@@ -13,10 +14,15 @@
   border-bottom: 2px solid var(--blue);
 }
 .group-btns-title {
-  margin-right: 20px;
+  margin: 0 12px 0 0;
+  font-size: 20px;
+  color: var(--blue);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .projects-btns-group button {
-  color: var(--dark-blue);
+  color: var(--blue);
+  background-color: var(--light-grey);
   border: none;
   text-transform: uppercase;
   padding: 8px 16px;
@@ -29,11 +35,11 @@
   font-family: "Lora", serif;
   font-weight: 700 !important;
   background-color: var(--light-blue) !important;
-  color: var(--dark-blue) !important;
+  color: var(--blue) !important;
   text-decoration: underline;
 }
 .projects-btns-group button:hover {
-  color: var(--dark-blue);
+  color: var(--blue);
   background-color: var(--light-blue) !important;
 }
 

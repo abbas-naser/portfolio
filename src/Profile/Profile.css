@@ -38,10 +38,10 @@
   color: grey;
   font-size: 15px;
 }
-.profile-contact a {
+/* .profile-contact a {
   color: var(--blue);
   text-decoration: underline;
-}
+} */
 
 @media (min-width: 950px) {
   .profile-container {
