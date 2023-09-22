@@ -1,11 +1,12 @@
 /* for mobile */
+
+.profile-outer-container {
+  background-color: white;
+}
 .profile-container {
   padding: 40px 20px 40px 20px;
-  max-width: 1000px;
+  max-width: var(--max-width);
   margin: 0 auto;
-
-  /* background-color: var(--light-grey); */
-  background-color: white;
 }
 .profile-image-container {
   width: 100%;
@@ -19,7 +20,7 @@
   height: 170px;
   box-sizing: content-box;
   border-radius: 50%;
-  border: 2px solid var(--teal);
+  border: 2px solid var(--blue);
   padding: 2px;
 }
 .profile-details {
@@ -28,7 +29,7 @@
 .profile-name {
   font-size: 24px;
   font-weight: bold;
-  color: var(--almost-black);
+  color: var(--dark-blue);
   text-transform: capitalize;
   margin-bottom: 8px;
 }
@@ -38,22 +39,14 @@
   font-size: 15px;
 }
 .profile-contact a {
-  color: teal;
+  color: var(--blue);
   text-decoration: underline;
 }
 
 @media (min-width: 950px) {
   .profile-container {
-    padding: 40px 100px;
   }
-  /* .profile-image-container {
-    width: 200px;
-    height: 200px;
-    margin-right: 40px;
-    display: inline-block;
-    margin-bottom: 0;
-    padding: 2px;
-  } */
+
   .profile-image-container img {
     width: 200px;
     height: 200px;
@@ -62,11 +55,8 @@
   .profile-details {
     font-size: 18px;
   }
-  /* .profile-name {
-    font-size: 28px;
-    font-weight: bold;
-    color: var(--almost-black);
-    text-transform: capitalize;
-    margin-bottom: 5px;
-  } */
+  .profile-barnd-statement {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }

@@ -9,6 +9,9 @@
   --light-grey: #f9f7f7;
   --background-color: #f9f7f7;
   --almost-black: rgb(34, 40, 49);
+  --dark-blue: rgb(17, 45, 78);
+  --blue: rgb(63, 114, 175);
+  --light-blue: rgb(219, 226, 239);
 }
 
 *,
@@ -20,7 +23,7 @@ img {
 }
 
 body {
-  background-color: white;
+  background-color: var(--light-grey);
   font-family: "Lora", serif;
-  color: var(--dark-grey);
+  color: var(--dark-blue);
 }

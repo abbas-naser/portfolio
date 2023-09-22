@@ -1,8 +1,8 @@
-.about-outer-container {
+.projects-outer-container {
 }
-.about-container {
+.projects-container {
 }
-.about-btns-group {
+.projects-btns-group {
   background-color: white;
   display: flex;
   justify-content: center;
@@ -12,30 +12,32 @@
   border-top: 2px solid var(--blue);
   border-bottom: 2px solid var(--blue);
 }
-.about-btns-group button {
+.group-btns-title {
+  margin-right: 20px;
+}
+.projects-btns-group button {
   color: var(--dark-blue);
   border: none;
   text-transform: uppercase;
   padding: 8px 16px;
   border-radius: 40px;
-  /* background-color: white !important; */
   font-family: "Lora", serif;
   font-weight: 500;
   font-size: 15px;
 }
-.selected-about-btn {
+.selected-project-btn {
   font-family: "Lora", serif;
   font-weight: 700 !important;
   background-color: var(--light-blue) !important;
   color: var(--dark-blue) !important;
   text-decoration: underline;
 }
-.about-btns-group button:hover {
+.projects-btns-group button:hover {
   color: var(--dark-blue);
   background-color: var(--light-blue) !important;
 }
 
-.about-content {
+.projects-content {
   padding: 20px 20px;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -49,12 +51,12 @@
 }
 
 @media (min-width: 760px) {
-  .about-btns-group button {
+  .projects-btns-group button {
     border: none;
     text-transform: uppercase;
     font-size: 16px;
   }
-  .about-content {
+  .projects-content {
     padding: 20px 80px;
   }
 }
