@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 :root {
   --max-width: 1200px;
   --horizontal-margin: 20px;
@@ -24,7 +25,7 @@ img {
 
 body {
   background-color: var(--light-grey);
-  font-family: "Lora", serif;
+  font-family: "lora", serif;
   color: var(--dark-blue);
 }
 

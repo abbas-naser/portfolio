@@ -1,3 +1,7 @@
+.snakes-and-ladders-container img {
+  max-width: 100%;
+}
+
 .first-p {
   text-indent: 20px;
 }
@@ -9,5 +13,5 @@
   font-weight: bold;
   padding: 10px;
   border-radius: 8px;
-  width: fit-content;
+  /* width: fit-content; */
 }

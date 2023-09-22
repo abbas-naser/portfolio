@@ -1,8 +1,13 @@
 import "./SnakesAndLadders.css";
+import snakesAndLaddersImg from "../../images/snakesAndLadders.png";
 export default function SnakesAndLadders() {
   return (
     <div className="snakes-and-ladders-container">
-      <h3>Snakes and ladders</h3>
+      <br />
+      <img src={snakesAndLaddersImg} alt="project screenshot" />
+      <br />
+      <br />
+      <h3 className="project-title">Snakes & ladders</h3>
       <br />
       <p className="first-p">
         As our first project in the Software Engineering Immersive Program with

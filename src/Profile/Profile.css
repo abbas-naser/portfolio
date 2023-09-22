@@ -1,7 +1,7 @@
 /* for mobile */
 
 .profile-outer-container {
-  background-color: white;
+  background-color: var(--dark-blue);
 }
 .profile-container {
   padding: 40px 20px 40px 20px;
@@ -20,28 +20,30 @@
   height: 170px;
   box-sizing: content-box;
   border-radius: 50%;
-  border: 2px solid var(--blue);
-  padding: 2px;
-}
-.profile-details {
-  text-align: center;
+  border: 2px solid var(--light-blue);
+  padding: 3px;
 }
 .profile-name {
   font-size: 24px;
   font-weight: bold;
-  color: var(--dark-blue);
+  color: var(--light-blue);
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
+.profile-details {
+  text-align: center;
+  color: rgb(195, 208, 231);
+}
+
 .profile-contact {
-  margin-top: 8px;
-  color: grey;
+  margin-top: 16px;
+  color: rgb(136, 170, 224);
   font-size: 15px;
 }
-/* .profile-contact a {
-  color: var(--blue);
+.profile-contact a {
+  color: rgb(136, 170, 224);
   text-decoration: underline;
-} */
+}
 
 @media (min-width: 950px) {
   .profile-container {

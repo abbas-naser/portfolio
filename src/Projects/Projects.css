@@ -48,12 +48,11 @@
   max-width: var(--max-width);
   margin: 0 auto;
 }
-.about-hr {
-  border: none;
-  border-top: 1px solid rgba(226, 226, 226, 0.795);
-}
-.about-text-after-list {
-  padding-left: 20px;
+.project-title {
+  font-size: 20px;
+  color: var(--dark-blue);
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
 @media (min-width: 760px) {
