@@ -14,13 +14,17 @@ export default function About() {
         <div className="about-btns-group">
           <h2 className="group-btns-title">About me</h2>
           <button
-            className={aboutComponent === "skills" && "selected-about-btn"}
+            className={
+              aboutComponent === "skills" ? "selected-about-btn" : undefined
+            }
             onClick={() => setAboutComponent("skills")}
           >
             skills
           </button>
           <button
-            className={aboutComponent === "education" && "selected-about-btn"}
+            className={
+              aboutComponent === "education" ? "selected-about-btn" : undefined
+            }
             onClick={() => {
               setAboutComponent("education");
             }}
@@ -30,14 +34,18 @@ export default function About() {
 
           <button
             className={
-              aboutComponent === "certifications" && "selected-about-btn"
+              aboutComponent === "certifications"
+                ? "selected-about-btn"
+                : undefined
             }
             onClick={() => setAboutComponent("certifications")}
           >
             certifications
           </button>
           <button
-            className={aboutComponent === "experience" && "selected-about-btn"}
+            className={
+              aboutComponent === "experience" ? "selected-about-btn" : undefined
+            }
             onClick={() => setAboutComponent("experience")}
           >
             experience

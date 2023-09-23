@@ -37,3 +37,9 @@ a {
 .bold-text {
   font-weight: bold;
 }
+.content-subTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-decoration: underline;
+}

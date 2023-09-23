@@ -11,14 +11,18 @@ export default function Projects() {
           <h2 className="group-btns-title">Projects</h2>
           <button
             className={
-              projectToShow === "snakes&ladders" && "selected-project-btn"
+              projectToShow === "snakes&ladders"
+                ? "selected-project-btn"
+                : undefined
             }
             onClick={() => setProjectToShow("snakes&ladders")}
           >
             snake & ladders
           </button>
           <button
-            className={projectToShow === "memories" && "selected-project-btn"}
+            className={
+              projectToShow === "memories" ? "selected-project-btn" : undefined
+            }
             onClick={() => {
               setProjectToShow("memories");
             }}

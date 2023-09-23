@@ -2,13 +2,13 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <div className="skills">
-      <h3 className="skills-title">Currently learning</h3>
+      <h2 className="content-subTitle">Currently learning</h2>
       <div className="currently-learning">
         <li>React Native.</li>
       </div>
       <hr className="about-hr " />
       <br />
-      <h3 className="skills-title">Highlighted Skills</h3>
+      <h2 className="content-subTitle">Highlighted Skills</h2>
       <li>
         <span className="skills-li-bold">Programming languages:</span>{" "}
         JavaScript, HTML, CSS and Python.
@@ -23,7 +23,7 @@ export default function Skills() {
 
       <hr className="about-hr " />
       <br />
-      <h3 className="skills-title">Languages</h3>
+      <h2 className="content-subTitle">Languages</h2>
       <li>Arabic (Native) , English (Intermediate).</li>
     </div>
   );

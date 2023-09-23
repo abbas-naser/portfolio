@@ -1,3 +1,6 @@
+.snakes-and-ladders-container p {
+  font-size: 16px;
+}
 .snakes-and-ladders-container img {
   max-width: 100%;
 }

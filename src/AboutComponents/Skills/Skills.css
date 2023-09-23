@@ -1,12 +1,9 @@
 .skills {
   /* text-align: center; */
 }
-.skills-title {
-  margin-bottom: 5px;
-}
 
 .skills li {
-  margin: 10px auto;
+  margin: 0 auto 10px auto;
 }
 .skills-li-bold {
   font-weight: bold;

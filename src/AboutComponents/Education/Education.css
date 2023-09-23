@@ -5,6 +5,21 @@
   gap: 0;
   margin-bottom: 20px;
 }
+.eduaction-image-and-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.eduation-flex img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: white;
+  object-fit: contain;
+  padding: 4px;
+}
+
 .education-list {
   font-weight: bold;
 }
