@@ -83,7 +83,7 @@ export default function SnakesAndLadders() {
       </p>
       <br />
       <div className="go-up">
-        <a href="#projects-outer-container">Go Up To Projects</a>
+        <a href="#projects">Go Up To Projects</a>
       </div>
     </div>
   );
