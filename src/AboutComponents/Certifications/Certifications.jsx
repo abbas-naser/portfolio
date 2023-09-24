@@ -2,7 +2,7 @@ import "./Certifications.css";
 export default function Certifications() {
   return (
     <>
-      <h2 className="content-subTitle">Electrical Certifications</h2>
+      <h2 className="content-title">Electrical Certifications</h2>
       <div className="eduation-flex">
         <div>
           <li className="education-list">

@@ -2,7 +2,7 @@ import "./Experience.css";
 export default function Experience() {
   return (
     <>
-      <h2 className="content-subTitle">Electrical Experience</h2>
+      <h2 className="content-title">Electrical Experience</h2>
       <>
         <div className="experience-flex">
           <div>

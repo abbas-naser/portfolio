@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Projects.css";
 import SnakesAndLadders from "../ProjectsComponents/SnakesAndLadders/SnakesAndLadders";
 import Memories from "../ProjectsComponents/Memories/Memories";
+import Portfolio from "../ProjectsComponents/Portfolio/Portfolio";
 
 export default function Projects() {
   const [projectToShow, setProjectToShow] = useState("snakes&ladders");
@@ -45,6 +46,7 @@ export default function Projects() {
         <div className="projects-content">
           {projectToShow === "snakes&ladders" && <SnakesAndLadders />}
           {projectToShow === "memories" && <Memories />}
+          {projectToShow === "portfolio" && <Portfolio />}
         </div>
       </div>
     </div>

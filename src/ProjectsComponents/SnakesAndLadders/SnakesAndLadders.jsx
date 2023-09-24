@@ -1,12 +1,11 @@
 import "./SnakesAndLadders.css";
-import snakesAndLaddersImg from "../../images/snakesAndLadders.png";
+import play from "./images/play.png";
+import winner from "./images/winner.png";
 export default function SnakesAndLadders() {
   return (
     <div className="snakes-and-ladders-container">
-      <img src={snakesAndLaddersImg} alt="project screenshot" />
-      <br />
-      <br />
-      <h2 className="content-subTitle">Snakes & ladders</h2>
+      <img className="project-main-image" src={play} alt="project screenshot" />
+      <h2 className="content-title">Snakes & ladders</h2>
       <p className="first-p">
         As our first project in the Software Engineering Immersive Program with
         General Assebmly, we where asked to build a game using JavaScript, HTML
@@ -36,7 +35,9 @@ export default function SnakesAndLadders() {
         "Snake" or "Ladder" on it, and that block will be chosen randomly every
         time.
       </p>
-      <br />
+      <div className="project-image-container">
+        <img src={winner} alt="project screenshot" />
+      </div>
       <p>
         The player that finishes the game first is the winner of that round.
         Each game has three rounds, and the winner is the one who wins two times

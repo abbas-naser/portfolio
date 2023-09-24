@@ -2,7 +2,7 @@ import "./Education.css";
 export default function Education() {
   return (
     <>
-      <h2 className="content-subTitle">Software Engineering</h2>
+      <h2 className="content-title">Software Engineering</h2>
       <div className="eduation-flex">
         <div className="eduaction-image-and-title">
           <img
@@ -20,7 +20,7 @@ export default function Education() {
       </div>
       <hr className="about-hr " />
       <br />
-      <h2 className="content-subTitle">Electrical Engineering</h2>
+      <h2 className="content-title">Electrical Engineering</h2>
 
       <div className="eduation-flex">
         <div className="eduaction-image-and-title">

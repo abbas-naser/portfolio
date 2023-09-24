@@ -5,7 +5,7 @@
 
 .skills li {
   margin: 0 auto 10px auto;
-  font-size: 16px;
+  /* font-size: 14px; */
 }
 .skills-li-bold {
   font-weight: bold;
