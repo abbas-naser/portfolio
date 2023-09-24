@@ -2,12 +2,11 @@ import { useState } from "react";
 import "./Projects.css";
 import SnakesAndLadders from "../ProjectsComponents/SnakesAndLadders/SnakesAndLadders";
 import Memories from "../ProjectsComponents/Memories/Memories";
-import Portfolio from "../ProjectsComponents/Portfolio/Portfolio";
 
 export default function Projects() {
   const [projectToShow, setProjectToShow] = useState("snakes&ladders");
   return (
-    <div className="projects-outer-container">
+    <div id="projects-outer-container" className="projects-outer-container">
       <div className="projects-container">
         <div className="projects-btns-group">
           <h2 className="group-btns-title">Projects</h2>
@@ -31,22 +30,11 @@ export default function Projects() {
           >
             memories
           </button>
-          <button
-            className={
-              projectToShow === "portfolio" ? "selected-project-btn" : undefined
-            }
-            onClick={() => {
-              setProjectToShow("portfolio");
-            }}
-          >
-            portfolio
-          </button>
         </div>
 
         <div className="projects-content">
           {projectToShow === "snakes&ladders" && <SnakesAndLadders />}
           {projectToShow === "memories" && <Memories />}
-          {projectToShow === "portfolio" && <Portfolio />}
         </div>
       </div>
     </div>

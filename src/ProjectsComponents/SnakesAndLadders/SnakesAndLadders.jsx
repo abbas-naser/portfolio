@@ -13,7 +13,8 @@ export default function SnakesAndLadders() {
         mimics the known "Snakes and Ladders" game, with the ability to play
         aginst another person or against a computer.
       </p>
-      <br />
+      {/* lessons learned */}
+      <li className="project-subTitle">Playing the game</li>
       <p>
         To start playing, user has to choose to play aginst another person or
         against the computer, once that is done, the player to start playing
@@ -53,7 +54,9 @@ export default function SnakesAndLadders() {
         Animations and sound effects were added almost with every interaction to
         make the game live and more entertaining
       </p>
-      <br />
+
+      {/* lessons learned */}
+      <li className="project-subTitle">lessons learned</li>
       <p>
         One of the lessons that has been learned from this project was to think
         about the responsiveness of the website from the beggining. As my first
@@ -74,10 +77,14 @@ export default function SnakesAndLadders() {
         </a>
       </p>
       <br />
-      <p className="last-p">
+      <p className="highlighted-p">
         Overall, it was a very good challenge, lots of work and attention to
         details were put on it, and lots of lessons has been learned.
       </p>
+      <br />
+      <div className="go-up">
+        <a href="#projects-outer-container">Go Up To Projects</a>
+      </div>
     </div>
   );
 }

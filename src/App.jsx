@@ -10,7 +10,7 @@ export default function App() {
       <main>
         <Profile />
         <About />
-        <Projects />
+        <Projects id="projects-content" />
       </main>
       <Footer />
     </div>

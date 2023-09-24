@@ -1,13 +1,21 @@
 import "./Memories.css";
 import homeLoggedOut from "./images/home-logged-out.png";
 import HomeAfterSignUp from "./images/home-no-memories-alert.png";
+import homeWithMemories from "./images/home-with-memories.png";
 import AlbumsPage from "./images/albums.png";
 import AlbumPage from "./images/album.png";
+import addingMemory from "./images/addingMemory.png";
+import albumMemories from "./images/albumMemories.png";
+import pendingMembers from "./images/pendingMembers.png";
+import pendingMemories from "./images/pendingMemories.png";
 import MePage from "./images/me.png";
-import Search from "./images/search.png";
+import searchPrivate from "./images/search-private.png";
+import searchJoin from "./images/searchJoin.png";
 import SearchAlert from "./images/search-error-alert.png";
 import AlbumsMobile from "./images/albums-mobile.png";
 import AlbumsTablet from "./images/albums-tablet.png";
+import memory from "./images/memory.png";
+import unauthorized from "./images/unauthorized.png";
 export default function Memories() {
   return (
     <div className="memories-container">
@@ -31,8 +39,9 @@ export default function Memories() {
         with General Assebmly using{" "}
         <span className="bold-text ">
           JavaScript, HTML, CSS, React, React Bootstrap , Express.js, MongoDB,
-          Mongoose, JWT authentication, and Cloudinary.
-        </span>
+          Mongoose, JWT authentication, and Cloudinary
+        </span>{" "}
+        for storing images.
       </p>
       <li className="project-subTitle">Albums and Members overview</li>
       <p>
@@ -79,6 +88,9 @@ export default function Memories() {
         color, such that it brings back the same feelings and emotions for the
         user and for others that can see this memory.
       </p>
+      <div className="project-image-container">
+        <img src={memory} alt="home after sign up" />
+      </div>
       <li className="project-subTitle">Why multiple Admins?</li>
       <p>
         Each album can have multiple "Admins", and one of the reasons is that we
@@ -105,6 +117,9 @@ export default function Memories() {
       </p>
       <div className="project-image-container">
         <img src={HomeAfterSignUp} alt="home after sign up" />
+      </div>
+      <div className="project-image-container">
+        <img src={homeWithMemories} alt="home with memories" />
       </div>
       {/* albums page */}
       <li className="project-subTitle">Albums Page</li>
@@ -136,8 +151,21 @@ export default function Memories() {
         or Members.
       </p>
       <div className="project-image-container">
+        <img src={albumMemories} alt="album memories" />
+      </div>
+      <div className="project-image-container">
+        <img src={addingMemory} alt="adding memory component" />
+      </div>
+      <div className="project-image-container">
         <img src={AlbumPage} alt="album page" />
       </div>
+      <div className="project-image-container">
+        <img src={pendingMembers} alt="pending members" />
+      </div>
+      <div className="project-image-container">
+        <img src={pendingMemories} alt="pending memories" />
+      </div>
+
       {/* me page */}
       <li className="project-subTitle">Me Page</li>
       <p>
@@ -150,6 +178,7 @@ export default function Memories() {
       <div className="project-image-container">
         <img src={MePage} alt="me page" />
       </div>
+
       {/* search page */}
       <li className="project-subTitle">Search</li>
       <p>
@@ -164,8 +193,12 @@ export default function Memories() {
         name.
       </p>
       <div className="project-image-container">
-        <img src={Search} alt="search page" />
+        <img src={searchJoin} alt="search page" />
       </div>
+      <div className="project-image-container">
+        <img src={SearchAlert} alt="search with alert " />
+      </div>
+
       <p>
         Searching for a private album requires searching by album public ID. If
         the album searched for exist, then the user will see only the album name
@@ -178,18 +211,70 @@ export default function Memories() {
         he is already a member in that album.
       </p>
       <div className="project-image-container">
-        <img src={SearchAlert} alt="search with alert " />
+        <img src={searchPrivate} alt="search page" />
+      </div>
+      {/* unauthorized */}
+      <li className="project-subTitle">protecting albums</li>
+      <p>
+        From the backend we made sure that the user that is trying to access the
+        album is authorized to do so, and if the user is not authorized then an
+        error page will be shown to him. Also, when searching for a private
+        album in the search page, only the album name and the album Id will be
+        sent to the front end without any other details about the album, the
+        album Id will be used to allow the user to request to join that album
+        since the names of the albums are not unique by design.
+      </p>
+      <div className="project-image-container">
+        <img src={unauthorized} alt="unauthorized error page" />
       </div>
       {/* responsiveness */}
       <li className="project-subTitle">responsiveness</li>
       <p>
-        The website is build with responsiveness in mind, so the website will be
-        usable in all screen sizes.{" "}
+        The website was built with responsiveness in mind, so it will be usable
+        in all screen sizes.
       </p>
       <div className="repsonsive-image-container">
-        <img src={AlbumsMobile} alt="albums in mobile view" />
-
         <img src={AlbumsTablet} alt="albums in tablet view" />
+        <img src={AlbumsMobile} alt="albums in mobile view" />
+      </div>
+      {/* lessons learned */}
+      <li className="project-subTitle">lessons learned</li>
+      <p>
+        this project was a very big opportunity for learning, as we have made
+        lots of mistakes and learned lots of lessons. One of the biggest lessons
+        learned was to plan the details of users roles and which user can do
+        what and to write it down and to look at it when coding, since there are
+        three types of users and each can do different things, with two types of
+        albums, it was a challenge to track what user can do and what he can't.{" "}
+      </p>
+      <p>
+        another lesson was that we learned to work with the framework i.e.
+        "React" in our case, learning from our previous projects, we started
+        creating components instead of new pages, e.g. creating an album or
+        adding a memory both are done with components instead of redirecting the
+        user to another page, so by clicking a button, a component will be shown
+        to the user and he can start adding details and once he finishes then
+        the component will be removed from the screen, all this was done using
+        simple "React States".
+      </p>
+      <br />
+      <p className="highlighted-p">
+        In this project we tried to make it the best we could, there were lots
+        of features that we wanted to add but we didn't have time to, like
+        adding comments and likes on memories, adding multiple images as a
+        single memory, sending notifications for users when a new memory is
+        added to an album and more. We tried our best to make it user friendly,
+        so in forms we added hints about what the user should write or choose,
+        what is optional and what the user has not to remember like the public
+        ID. Also, we added spinners to let the user knows that there is
+        something happening in the background. And we heavily used the "Alert"
+        to give the user feedback on what he has done, whether it was
+        successfull or not. It was really nice experienc and a huge opportuninty
+        for learning.{" "}
+      </p>
+      <br />
+      <div className="go-up">
+        <a href="#projects-outer-container">Go Up To Projects</a>
       </div>
     </div>
   );

@@ -44,3 +44,8 @@ a {
   margin-bottom: 12px;
   text-decoration: underline;
 }
+
+.go-up {
+  width: 100%;
+  text-align: end;
+}

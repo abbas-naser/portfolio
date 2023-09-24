@@ -52,7 +52,7 @@ export default function About() {
           </button>
         </div>
 
-        <div className="about-content">
+        <div id="" className="about-content">
           {aboutComponent === "skills" && <Skills />}
           {aboutComponent === "education" && <Education />}
           {aboutComponent === "certifications" && <Certifications />}
