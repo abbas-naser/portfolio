@@ -6,7 +6,7 @@ import Memories from "../ProjectsComponents/Memories/Memories";
 export default function Projects() {
   const [projectToShow, setProjectToShow] = useState("snakes&ladders");
   return (
-    <div id="projects-outer-container" className="projects-outer-container">
+    <div id="projects" className="projects-outer-container">
       <div className="projects-container">
         <div className="projects-btns-group">
           <h2 className="group-btns-title">Projects</h2>
