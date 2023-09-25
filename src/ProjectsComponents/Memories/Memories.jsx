@@ -125,7 +125,7 @@ export default function Memories() {
       <li className="project-subTitle">Albums Page</li>
       <p>
         In albums page, user can start creating new albums, and he will see all
-        the albums that he h as created and the albums he has joined. Albums can
+        the albums that he has created and the albums he has joined. Albums can
         be sorted by name or by last updated date. Each album card will show the
         cover image of the album, the album name, and tags that shows whether
         the album is private or public, the role of the user in that album
@@ -172,8 +172,7 @@ export default function Memories() {
         Me page, is the page that holds the user profile and where the user can
         update his profile details. Also, it holds all the memories that the
         user has added in all the albums that he has created or joined, sorted
-        by creation date. The memory card has a border with the color that the
-        user choose when creating the memory.
+        by creation date.
       </p>
       <div className="project-image-container">
         <img src={MePage} alt="me page" />
