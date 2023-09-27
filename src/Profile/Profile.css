@@ -1,7 +1,12 @@
 /* for mobile */
 
 .profile-outer-container {
-  background-color: var(--dark-blue);
+  /* background-color: var(--dark-blue); */
+  background-image: radial-gradient(
+    circle,
+    rgb(17, 45, 78, 1),
+    rgba(3, 33, 64, 1)
+  );
 }
 .profile-container {
   padding: 40px 20px 40px 20px;
@@ -16,19 +21,20 @@
   margin-bottom: 20px;
 }
 .profile-image-container img {
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   box-sizing: content-box;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  border-radius: 20px;
   border: 2px solid var(--light-blue);
-  padding: 3px;
+  padding: 4px;
 }
 .profile-name {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   color: var(--light-blue);
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .profile-details {
   text-align: center;
@@ -38,26 +44,25 @@
 }
 
 .profile-contact {
-  margin-top: 16px;
+  margin-top: 10px;
   color: rgb(136, 170, 224);
+  /* color: rgba(255, 255, 255, 0.5); */
   font-size: 14px;
 }
 .profile-contact a {
   color: rgb(136, 170, 224);
+  /* color: rgba(255, 255, 255, 0.7); */
   text-decoration: underline;
 }
 
 @media (min-width: 950px) {
-  .profile-container {
-  }
-
   .profile-image-container img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
   }
   .profile-details {
-    font-size: 18px;
+    font-size: 16px;
   }
   .profile-barnd-statement {
     max-width: 900px;

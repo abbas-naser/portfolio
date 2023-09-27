@@ -1,14 +1,13 @@
 import "./Profile.css";
+import profileImage from "./profile.png";
+import anotherProfileImage from "./m.jpg";
 export default function Profile() {
   return (
     <div className="profile-outer-container">
       <div className="profile-container">
         {/* profile image */}
         <div className="profile-image-container">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Windows_10_Default_Profile_Picture.svg/2048px-Windows_10_Default_Profile_Picture.svg.png"
-            alt="profile"
-          />
+          <img src={anotherProfileImage} alt="profile" />
         </div>
         {/* porfile detials. */}
         <div className="profile-details">
