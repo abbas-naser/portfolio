@@ -16,6 +16,8 @@ import AlbumsMobile from "./images/albums-mobile.png";
 import AlbumsTablet from "./images/albums-tablet.png";
 import memory from "./images/memory.png";
 import unauthorized from "./images/unauthorized.png";
+import selectValidation from "./images/select-validation.png";
+import loginValidation from "./images/login-validation.png";
 export default function Memories() {
   return (
     <div className="memories-container">
@@ -38,11 +40,21 @@ export default function Memories() {
         as the capstone project for the Software Engineering Immersive Program
         with General Assebmly using{" "}
         <span className="bold-text ">
-          JavaScript, HTML, CSS, React, React Bootstrap , Express.js, MongoDB,
-          Mongoose, JWT authentication, and Cloudinary
-        </span>{" "}
-        for storing images.
+          JavaScript, HTML, CSS, React, React Bootstrap , Node.js, Express.js,
+          MongoDB, Mongoose, JWT authentication, and Cloudinary.
+        </span>
       </p>
+      {/* stack */}
+      <li className="project-subTitle">Stack and technologies</li>
+      <p>
+        MERN was used as the web development stack for this project. So, React
+        was used in the front-end, Node.js with Express.js in the back-end and
+        as a database MongoDB with Mongoose was used. Cloudinary was used to
+        store images from users, and JSON Web Token (JWT) for authentication and
+        transmitting user information.
+      </p>
+      <p></p>
+      {/* albums and members */}
       <li className="project-subTitle">Albums and Members overview</li>
       <p>
         In Memories, users can create albums to store their memories where
@@ -59,6 +71,7 @@ export default function Memories() {
         other members in the album unless the one he wants to change his role is
         the creator of the album.
       </p>
+      {/* Album public ID */}
       <li className="project-subTitle">Album public ID</li>
       <p>
         Each album has something called "public ID", a unique string that the
@@ -108,6 +121,7 @@ export default function Memories() {
         that is not logged in can search for albums and he can also view public
         albums.
       </p>
+      <br />
       <p>
         After sign up the user will be redirected to the home page, and he will
         see an alert to let him know that his sign up was successful. If the
@@ -165,7 +179,6 @@ export default function Memories() {
       <div className="project-image-container">
         <img src={pendingMemories} alt="pending memories" />
       </div>
-
       {/* me page */}
       <li className="project-subTitle">Me Page</li>
       <p>
@@ -177,7 +190,6 @@ export default function Memories() {
       <div className="project-image-container">
         <img src={MePage} alt="me page" />
       </div>
-
       {/* search page */}
       <li className="project-subTitle">Search</li>
       <p>
@@ -197,7 +209,6 @@ export default function Memories() {
       <div className="project-image-container">
         <img src={SearchAlert} alt="search with alert " />
       </div>
-
       <p>
         Searching for a private album requires searching by album public ID. If
         the album searched for exist, then the user will see only the album name
@@ -212,20 +223,6 @@ export default function Memories() {
       <div className="project-image-container">
         <img src={searchPrivate} alt="search page" />
       </div>
-      {/* unauthorized */}
-      <li className="project-subTitle">protecting albums</li>
-      <p>
-        From the backend we made sure that the user that is trying to access the
-        album is authorized to do so, and if the user is not authorized then an
-        error page will be shown to him. Also, when searching for a private
-        album in the search page, only the album name and the album Id will be
-        sent to the front end without any other details about the album, the
-        album Id will be used to allow the user to request to join that album
-        since the names of the albums are not unique by design.
-      </p>
-      <div className="project-image-container">
-        <img src={unauthorized} alt="unauthorized error page" />
-      </div>
       {/* responsiveness */}
       <li className="project-subTitle">responsiveness</li>
       <p>
@@ -236,6 +233,49 @@ export default function Memories() {
         <img src={AlbumsTablet} alt="albums in tablet view" />
         <img src={AlbumsMobile} alt="albums in mobile view" />
       </div>
+      {/* protecting albums */}
+      <li className="project-subTitle">protecting albums</li>
+      <p>
+        From the backend we made sure that the user that is trying to access an
+        album is authorized to do so, and if the user is not authorized then an
+        error page will be shown to him. Also, when searching for a private
+        album in the search page, only the album name and the album Id will be
+        sent to the front end without any other details about the album, the
+        album Id will be used to allow the user to request to join that album
+        since the names of the albums are not unique by design.
+      </p>
+      <div className="project-image-container">
+        <img src={unauthorized} alt="unauthorized error page" />
+      </div>
+      {/* validation */}
+      <li className="project-subTitle">validation</li>
+      <p>
+        Almost every input that is received in the server was validated to make
+        sure that the input received is as expected. Forms like login, signup,
+        creating album, adding memory and so on, all have validation done in the
+        back-end to make sure that the user is authorized to do what he is
+        trying to do, and that the information that he inputs is valid and
+        correct, and incase it is not, then an error will thrown in the back-end
+        and an alert will be shown to the user in the front-end to guid him
+        about what he did wrong.{" "}
+      </p>
+      <div className="project-image-container">
+        <img src={loginValidation} alt="login validation error" />
+      </div>
+      <p>
+        One of the examples is that when creating an album, the user has to
+        choose whether the album should be "Private" or "Public" using a
+        "Select" element, and since this is a very essential information about
+        the album, we made sure that the input that we receive is either
+        "private" or "public", so if the user changed the "value" of one of the
+        "options" in the inspector in his browser, then the album will not be
+        created and he will get an error message instead.
+      </p>
+
+      <div className="project-image-container">
+        <img src={selectValidation} alt="select validation error" />
+      </div>
+
       {/* lessons learned */}
       <li className="project-subTitle">lessons learned</li>
       <p>
@@ -246,6 +286,7 @@ export default function Memories() {
         three types of users and each can do different things, with two types of
         albums, it was a challenge to track what user can do and what he can't.{" "}
       </p>
+      <br />
       <p>
         another lesson was that we learned to work with the framework i.e.
         "React" in our case, learning from our previous projects, we started
