@@ -10,6 +10,23 @@
 .skills-li-bold {
   font-weight: bold;
 }
-.currently-learning {
+.to-learn,
+.highlighted-skills {
   margin-bottom: 20px;
+}
+
+.learning-span {
+  /* color: rgb(61, 172, 143); */
+  color: rgb(242, 102, 171);
+  /* color: var(--blue); */
+  text-transform: capitalize;
+}
+.learned {
+  color: rgb(61, 172, 143);
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+.learned-span {
+  color: rgb(61, 172, 143);
+  text-transform: capitalize;
 }

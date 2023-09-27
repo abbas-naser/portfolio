@@ -8,10 +8,11 @@ export default function SnakesAndLadders() {
       <h2 className="content-title">Snakes & ladders</h2>
       <p className="first-p">
         As our first project in the Software Engineering Immersive Program with
-        General Assebmly, we where asked to build a game using JavaScript, HTML
-        and CSS in one week. The game that I chose to build was a game that
-        mimics the known "Snakes and Ladders" game, with the ability to play
-        aginst another person or against a computer.
+        General Assebmly, we where asked to build a game using{" "}
+        <span className="bold-text ">JavaScript, HTML and CSS</span> in one
+        week. The game that I chose to build was a game that mimics the known
+        "Snakes and Ladders" game, with the ability to play aginst another
+        person or against a computer.
       </p>
       {/* lessons learned */}
       <li className="project-subTitle">Playing the game</li>
