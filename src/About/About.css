@@ -23,7 +23,7 @@
   /* background-color: white !important; */
   font-family: "Lora", serif;
   font-weight: 500;
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 .selected-about-btn {
   font-family: "Lora", serif;
@@ -56,10 +56,10 @@
   .about-btns-group button {
     border: none;
     text-transform: uppercase;
-    font-size: 16px;
+    /* font-size: 16px; */
   }
   .about-content {
     padding: 20px 80px;
-    font-size: 16px;
+    /* font-size: 16px; */
   }
 }

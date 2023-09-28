@@ -6,13 +6,14 @@
   --border-radius: 5px;
   --teal: rgb(0, 173, 181);
   --dark-grey: rgb(57, 62, 70);
-  /* --light-grey: rgb(238, 238, 238); */
   --light-grey: #f9f7f7;
   --background-color: #f9f7f7;
   --almost-black: rgb(34, 40, 49);
   --dark-blue: rgb(17, 45, 78);
   --blue: rgb(63, 114, 175);
   --light-blue: rgb(219, 226, 239);
+  --pink: #f15ba6;
+  --green: #3caa8c;
 }
 
 *,
@@ -25,7 +26,7 @@ img {
 
 body {
   background-color: var(--light-grey);
-  font-size: 16px;
+  /* font-size: 16px; */
   font-family: "lora", serif;
   color: var(--dark-blue);
 }

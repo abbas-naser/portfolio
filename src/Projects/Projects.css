@@ -30,7 +30,7 @@
   border-radius: 40px;
   font-family: "Lora", serif;
   font-weight: 500;
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 .selected-project-btn {
   font-family: "Lora", serif;
@@ -61,7 +61,7 @@
   /* text-indent: 20px; */
 }
 .projects-content p {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.5;
 }
 .projects-content p::first-letter {
@@ -103,7 +103,7 @@
   .projects-btns-group button {
     border: none;
     text-transform: uppercase;
-    font-size: 16px;
+    /* font-size: 16px; */
   }
   .projects-content {
     padding: 20px 80px;

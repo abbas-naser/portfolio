@@ -16,17 +16,15 @@
 }
 
 .learning-span {
-  /* color: rgb(61, 172, 143); */
-  color: rgb(242, 102, 171);
-  /* color: var(--blue); */
+  color: var(--pink);
   text-transform: capitalize;
 }
 .learned {
-  color: rgb(61, 172, 143);
+  color: var(--green);
   text-transform: capitalize;
   text-decoration: line-through;
 }
 .learned-span {
-  color: rgb(61, 172, 143);
+  color: var(--green);
   text-transform: capitalize;
 }
