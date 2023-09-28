@@ -1,11 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d94352b2.css",
-    "main.js": "/portfolio/static/js/main.c5666de9.js",
-    "static/media/winner.png": "/portfolio/static/media/winner.dd24506b263945f825c5.png",
-    "static/media/play.png": "/portfolio/static/media/play.832233bc1447edb95c2b.png",
+    "main.css": "/portfolio/static/css/main.4605517f.css",
+    "main.js": "/portfolio/static/js/main.be351a5b.js",
     "static/media/memory.png": "/portfolio/static/media/memory.46aa4109a73fdfdc1a44.png",
-    "static/media/m.jpg": "/portfolio/static/media/m.51ed94ddf45a77aab1b8.jpg",
     "static/media/albums.png": "/portfolio/static/media/albums.f62bae74aab3e8c29dde.png",
     "static/media/me.png": "/portfolio/static/media/me.c4c312715bc2d02c6c9e.png",
     "static/media/home-with-memories.png": "/portfolio/static/media/home-with-memories.7ac2bbbe6d6b7b526a16.png",
@@ -21,16 +18,18 @@
     "static/media/search-private.png": "/portfolio/static/media/search-private.8e300c2c1e4cc6917e77.png",
     "static/media/searchJoin.png": "/portfolio/static/media/searchJoin.06a96add9a9e5a906058.png",
     "static/media/search-error-alert.png": "/portfolio/static/media/search-error-alert.4ec4f596dc61776be7ba.png",
+    "static/media/winner.png": "/portfolio/static/media/winner.9a6b17b49398bd604ffa.png",
     "static/media/home-no-memories-alert.png": "/portfolio/static/media/home-no-memories-alert.7663d5e67d1e2bc49381.png",
     "static/media/login-validation.png": "/portfolio/static/media/login-validation.4228f8778ec83180a9ec.png",
     "static/media/unauthorized.png": "/portfolio/static/media/unauthorized.5043c99ee55888e58d45.png",
-    "static/media/profile.png": "/portfolio/static/media/profile.28cc77db662dd1ab651b.png",
+    "static/media/play.png": "/portfolio/static/media/play.c4b61dda234ac00d65e0.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.8d50b3e1a907b535d7ef.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d94352b2.css.map": "/portfolio/static/css/main.d94352b2.css.map",
-    "main.c5666de9.js.map": "/portfolio/static/js/main.c5666de9.js.map"
+    "main.4605517f.css.map": "/portfolio/static/css/main.4605517f.css.map",
+    "main.be351a5b.js.map": "/portfolio/static/js/main.be351a5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d94352b2.css",
-    "static/js/main.c5666de9.js"
+    "static/css/main.4605517f.css",
+    "static/js/main.be351a5b.js"
   ]
 }
