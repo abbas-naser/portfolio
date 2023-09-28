@@ -4,10 +4,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 300px;
+  min-height: 50px;
   /* margin: 0; */
   /* width: 100%; */
 }
 .image-spinner {
   position: absolute;
+}
+@media (min-width: 700px) {
+  .image-container-with-spinner {
+    min-height: 300px;
+  }
 }

@@ -71,8 +71,8 @@
     width: fit-content;
   }
   .profile-name {
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 26px;
+    letter-spacing: 1.5px;
   }
 }
 @media (min-width: 950px) {
