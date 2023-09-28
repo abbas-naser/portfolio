@@ -4,11 +4,11 @@
   --max-width: 1200px;
   --horizontal-margin: 20px;
   --border-radius: 5px;
-  --teal: rgb(0, 173, 181);
-  --dark-grey: rgb(57, 62, 70);
+  /* --teal: rgb(0, 173, 181);
+  --dark-grey: rgb(57, 62, 70); */
+  /* --almost-black: rgb(34, 40, 49); */
   --light-grey: #f9f7f7;
   --background-color: #f9f7f7;
-  --almost-black: rgb(34, 40, 49);
   --dark-blue: rgb(17, 45, 78);
   --blue: rgb(63, 114, 175);
   --light-blue: rgb(219, 226, 239);

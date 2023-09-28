@@ -1,4 +1,5 @@
 import "./Memories.css";
+
 import homeLoggedOut from "./images/home-logged-out.png";
 import HomeAfterSignUp from "./images/home-no-memories-alert.png";
 import homeWithMemories from "./images/home-with-memories.png";
@@ -18,14 +19,27 @@ import memory from "./images/memory.png";
 import unauthorized from "./images/unauthorized.png";
 import selectValidation from "./images/select-validation.png";
 import loginValidation from "./images/login-validation.png";
+
+import { useState } from "react";
+import UploadingSpinner from "../../UploadingSpinner/UploadingSpinner";
+
 export default function Memories() {
+  const [loading, setLoading] = useState(true);
   return (
     <div className="memories-container">
-      <img
-        className="project-main-image"
-        src={homeLoggedOut}
-        alt="project home screenshot"
-      />
+      <div className="image-container">
+        {/* {loading && <UploadingSpinner />} */}
+        {loading && "Loading..."}
+
+        <img
+          style={{ visibility: loading ? "hidden" : "visible" }}
+          className="project-main-image"
+          src={homeLoggedOut}
+          alt="project home screenshot"
+          onLoad={() => setLoading(false)}
+        />
+      </div>
+
       <h2 className="content-title">Memories</h2>
       <p className="first-p">
         a space where users can create and share albums based on different
