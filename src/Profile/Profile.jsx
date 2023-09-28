@@ -1,13 +1,13 @@
 import "./Profile.css";
-import profileImage from "./profile.png";
-import anotherProfileImage from "./m.jpg";
+import profileImage from "./profile.jpg";
+
 export default function Profile() {
   return (
     <div className="profile-outer-container">
       <div className="profile-container">
         {/* profile image */}
         <div className="profile-image-container">
-          <img src={anotherProfileImage} alt="profile" />
+          <img src={profileImage} alt="profile" />
         </div>
         {/* porfile detials. */}
         <div className="profile-details">
