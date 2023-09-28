@@ -1,0 +1,13 @@
+.image-container-with-spinner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 300px; */
+  /* margin: 0; */
+  /* width: 100%; */
+}
+.image-spinner {
+  position: absolute;
+}

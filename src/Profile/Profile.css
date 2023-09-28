@@ -38,6 +38,7 @@
 }
 .profile-name {
   font-size: 22px;
+  letter-spacing: 0.8px;
   text-shadow: 0 0 2px var(--blue);
   text-align: center;
   font-weight: bold;
@@ -68,6 +69,10 @@
     max-width: 900px;
     min-width: 450px;
     width: fit-content;
+  }
+  .profile-name {
+    font-size: 30px;
+    letter-spacing: 2px;
   }
 }
 @media (min-width: 950px) {

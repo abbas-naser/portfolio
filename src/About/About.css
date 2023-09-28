@@ -31,6 +31,7 @@
   background-color: var(--light-blue) !important;
   color: var(--blue);
   text-decoration: underline;
+  /* border: 1.5px solid var(--blue) !important; */
 }
 .about-btns-group button:hover {
   color: var(--blue);
