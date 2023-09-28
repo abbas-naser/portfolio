@@ -2,11 +2,14 @@ import { useState } from "react";
 import "./Projects.css";
 import SnakesAndLadders from "../ProjectsComponents/SnakesAndLadders/SnakesAndLadders";
 import Memories from "../ProjectsComponents/Memories/Memories";
+import homeLoggedOut from "../ProjectsComponents/Memories/images/home-logged-out.png";
 
 export default function Projects() {
   const [projectToShow, setProjectToShow] = useState("snakes&ladders");
   return (
     <div id="projects" className="projects-outer-container">
+      {/* image is not shown, it is added here so it will be downloaded by the browser  */}
+      <img src={homeLoggedOut} style={{ display: "none" }} />
       <div className="projects-container">
         <div className="projects-btns-group">
           <h2 className="group-btns-title">Projects</h2>

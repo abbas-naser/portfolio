@@ -15,7 +15,7 @@ export default function Skills() {
         </li>
       </div>
       <hr className="about-hr " />
-      <br />
+
       <h2 className="content-title">Highlighted Skills</h2>
       <div className="highlighted-skills">
         <li>
@@ -32,7 +32,6 @@ export default function Skills() {
       </div>
 
       <hr className="about-hr " />
-      <br />
       <h2 className="content-title">Languages</h2>
       <li>Arabic (Native) , English (Intermediate).</li>
     </div>

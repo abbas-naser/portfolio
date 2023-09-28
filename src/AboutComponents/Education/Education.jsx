@@ -19,7 +19,7 @@ export default function Education() {
         <p className="education-date">Jun - Sep 2023</p>
       </div>
       <hr className="about-hr " />
-      <br />
+
       <h2 className="content-title">Electrical Engineering</h2>
 
       <div className="eduation-flex">

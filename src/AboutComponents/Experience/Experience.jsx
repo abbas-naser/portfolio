@@ -27,7 +27,6 @@ export default function Experience() {
         </div>
       </>
       <hr className="about-hr " />
-      <br />
       <>
         <div className="experience-flex">
           <div>
