@@ -1,6 +1,8 @@
 import "./SnakesAndLadders.css";
 import play from "./images/play.png";
 import winner from "./images/winner.png";
+import homeLoggedOut from "../../ProjectsComponents/Memories/images/home-logged-out.png";
+
 export default function SnakesAndLadders() {
   return (
     <div className="snakes-and-ladders-container">
@@ -86,6 +88,9 @@ export default function SnakesAndLadders() {
       <div className="go-up">
         <a href="#projects">Go Up To Projects</a>
       </div>
+
+      {/* image is not shown, it is added here so it will be downloaded by the browser  */}
+      <img src={homeLoggedOut} style={{ display: "none" }} />
     </div>
   );
 }

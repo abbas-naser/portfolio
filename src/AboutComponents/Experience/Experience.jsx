@@ -1,17 +1,23 @@
 import "./Experience.css";
+import skd from "./images/skd1.png";
+import aqua from "./images/aqua.png";
 export default function Experience() {
   return (
     <>
       <h2 className="content-title">Electrical Experience</h2>
       <>
-        <div className="experience-flex">
-          <div>
-            <li className="experience-list">Electrical Engineer</li>
-            <p className="about-text-after-list">SKD Group, Bahrain</p>
+        <div className="experience-item-heading">
+          <div className="experience-image-and-title">
+            <img src={skd} />
+            <div>
+              <p className="bold-text">Electrical Engineer</p>
+              <p>SKD Group, Bahrain</p>
+            </div>
           </div>
-          <p className="experience-date">Oct - Dec 2022</p>
+          <p className="experience-date ">Oct - Dec 2022</p>
         </div>
-        <div className="experience-list-detail">
+
+        <div className="experience-item-list-detail">
           <li>
             Overseeing the installation of electrical systems to ensure that
             they meet the standards.
@@ -28,16 +34,18 @@ export default function Experience() {
       </>
       <hr className="about-hr " />
       <>
-        <div className="experience-flex">
-          <div>
-            <li className="experience-list">Electrical Engineer</li>
-            <p className="about-text-after-list">
-              Aqua Technology Transfer, Bahrain
-            </p>
+        <div className="experience-item-heading">
+          <div className="experience-image-and-title">
+            <img src={aqua} />
+            <div>
+              <p className="bold-text">Electrical Engineer</p>
+              <p>Aqua Technology Transfer, Bahrain</p>
+            </div>
           </div>
           <p className="experience-date">Oct 2020 - Sep 2022</p>
         </div>
-        <div className="experience-list-detail">
+
+        <div className="experience-item-list-detail">
           <li>Testing of electrical motors.</li>
           <li>Troubleshooting electrical problems.</li>
           <li>

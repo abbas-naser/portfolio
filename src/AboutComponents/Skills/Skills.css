@@ -1,16 +1,10 @@
 .skill-to-learn-with-icon {
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   gap: 10px;
   margin-bottom: 10px;
   text-transform: capitalize;
-}
-.skills-learning-with-icon {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 10px;
 }
 .skills-learned {
   color: var(--green);
@@ -40,8 +34,3 @@
   color: var(--pink);
   text-transform: capitalize;
 }
-
-/* .learned-span {
-  color: var(--green);
-  text-transform: capitalize;
-} */
