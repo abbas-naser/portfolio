@@ -16,7 +16,7 @@ export default function Profile() {
           <p className="profile-barnd-statement">
             "Software Engineer with Electrical Engineering background. An avid
             learner motivated by solving problems, developing responsive full
-            stack web applications."
+            stack web applications"
           </p>
 
           <div className="profile-contact">

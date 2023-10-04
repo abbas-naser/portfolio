@@ -15,7 +15,12 @@
   --pink: #f15ba6;
   --green: #3caa8c;
 }
-
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  /* margin: -10px; */
+  padding-right: 5px;
+  user-select: none;
+}
 *,
 p,
 img {

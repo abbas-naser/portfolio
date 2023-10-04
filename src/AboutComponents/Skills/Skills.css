@@ -1,4 +1,28 @@
-.skills {
+.skill-to-learn-with-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.skills-learning-with-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.skills-learned {
+  color: var(--green);
+  margin-bottom: 0;
+}
+.learned {
+  color: var(--green);
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+.skills-learning {
+  color: var(--pink);
 }
 
 .skills li {
@@ -16,12 +40,8 @@
   color: var(--pink);
   text-transform: capitalize;
 }
-.learned {
+
+/* .learned-span {
   color: var(--green);
   text-transform: capitalize;
-  text-decoration: line-through;
-}
-.learned-span {
-  color: var(--green);
-  text-transform: capitalize;
-}
+} */

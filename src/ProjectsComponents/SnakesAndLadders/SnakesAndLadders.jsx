@@ -69,7 +69,7 @@ export default function SnakesAndLadders() {
       </p>
       <br />
       <p className="bold-text">
-        Play the game:{" "}
+        Play the game (Desktop only):{" "}
         <a
           href="https://abbas-naser.github.io/Snakes-and-Ladders/"
           target="_blank"
