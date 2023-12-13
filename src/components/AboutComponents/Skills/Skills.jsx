@@ -34,7 +34,7 @@ export default function Skills() {
           <span class="material-symbols-outlined">code</span>
           <div>
             <span className="bold-text">Programming languages:</span>{" "}
-            JavaScript, HTML, CSS and Python.
+            JavaScript, HTML, CSS, Python and Dart.
           </div>
         </div>
 
@@ -63,22 +63,4 @@ export default function Skills() {
       </div>
     </div>
   );
-}
-
-{
-  /* <li>
-          <span className="bold-text">Programming languages:</span>{" "}
-          JavaScript, HTML, CSS and Python.
-        </li>
-        <li>
-          <span className="bold-text">Frameworks and Libraries:</span>{" "}
-          Bootstrap, Express, Mongoose, React and Flutter.
-        </li>
-        <li>
-          <span className="bold-text">Databases:</span> MongoDB.
-        </li> */
-}
-
-{
-  /* <li>Arabic (Native) , English (Intermediate).</li> */
 }
