@@ -13,12 +13,14 @@ export default function Skills() {
           <span class="material-symbols-outlined">circle</span>
           <span className="learning"> TypeScript.</span>{" "}
         </div>
-        <div className="skill-to-learn-with-icon">
+
+        {/* <div className="skill-to-learn-with-icon">
           <span class="material-symbols-outlined">offline_bolt</span>
           <span className="learning">
             HV Authorization license (Electrical).
           </span>{" "}
-        </div>
+        </div> */}
+
         <div className="skill-to-learn-with-icon skills-learned">
           <span class="material-symbols-outlined">radio_button_checked</span>
           <span className="learned">React Js.</span>{" "}
