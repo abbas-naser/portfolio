@@ -1,8 +1,8 @@
 import "./App.css";
-import Profile from "./Profile/Profile";
-import About from "./About/About";
-import Footer from "./Footer/Footer";
-import Projects from "./Projects/Projects";
+import Profile from "./components/Profile/Profile";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
+import Projects from "./components/Projects/Projects";
 
 export default function App() {
   return (
