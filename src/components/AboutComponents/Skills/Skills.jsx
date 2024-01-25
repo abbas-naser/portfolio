@@ -42,7 +42,7 @@ export default function Skills() {
           <span class="material-symbols-outlined">code_blocks</span>
           <div>
             <span className="bold-text">Frameworks and Libraries:</span>{" "}
-            Bootstrap, Express, React and Flutter.
+            Express.js, React and Flutter.
           </div>
         </div>
         <div className="skill-to-learn-with-icon">
@@ -54,8 +54,9 @@ export default function Skills() {
         <div className="skill-to-learn-with-icon">
           <span class="material-symbols-outlined">terminal</span>
           <div>
-            <span className="bold-text">Others:</span> OAuth - Google Auth, JWT
-            authentication, EJS, Mongoose and Cloudinary.
+            <span className="bold-text">Others: </span>Github, Node.js,
+            Mongoose, OAuth - Google Auth, JWT authentication, EJS, Cloudinary
+            and Bootstrap.
           </div>
         </div>
       </div>
