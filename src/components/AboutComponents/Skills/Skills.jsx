@@ -3,16 +3,16 @@ export default function Skills() {
   return (
     <div className="skills">
       {/* to learn */}
-      <h2 className="content-title">To learn in 2023</h2>
+      <h2 className="content-title">To learn in 2024</h2>
       <div className="to-learn">
         <div className="skill-to-learn-with-icon skills-learning">
           <span class="material-symbols-outlined">clock_loader_10</span>
-          <span className="learning"> React Native (Learning...). </span>{" "}
+          <span className="learning"> TypeScript (Learning...). </span>{" "}
         </div>
-        <div className="skill-to-learn-with-icon">
+        {/* <div className="skill-to-learn-with-icon">
           <span class="material-symbols-outlined">circle</span>
           <span className="learning"> TypeScript.</span>{" "}
-        </div>
+        </div> */}
 
         {/* <div className="skill-to-learn-with-icon">
           <span class="material-symbols-outlined">offline_bolt</span>
@@ -21,10 +21,10 @@ export default function Skills() {
           </span>{" "}
         </div> */}
 
-        <div className="skill-to-learn-with-icon skills-learned">
+        {/* <div className="skill-to-learn-with-icon skills-learned">
           <span class="material-symbols-outlined">radio_button_checked</span>
           <span className="learned">React Js.</span>{" "}
-        </div>
+        </div> */}
       </div>
       <hr className="about-hr " />
       {/* highlighted skills */}
@@ -42,13 +42,20 @@ export default function Skills() {
           <span class="material-symbols-outlined">code_blocks</span>
           <div>
             <span className="bold-text">Frameworks and Libraries:</span>{" "}
-            Bootstrap, Express, Mongoose, React and Flutter.
+            Bootstrap, Express, React and Flutter.
           </div>
         </div>
         <div className="skill-to-learn-with-icon">
           <span class="material-symbols-outlined">database</span>
           <div>
-            <span className="bold-text">Databases:</span> MongoDB.
+            <span className="bold-text">Databases:</span> MongoDB, PostgreSQL.
+          </div>
+        </div>
+        <div className="skill-to-learn-with-icon">
+          <span class="material-symbols-outlined">terminal</span>
+          <div>
+            <span className="bold-text">Others:</span> OAuth - Google Auth, JWT
+            authentication, EJS, Mongoose and Cloudinary.
           </div>
         </div>
       </div>
