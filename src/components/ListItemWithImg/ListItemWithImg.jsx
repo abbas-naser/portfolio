@@ -25,7 +25,7 @@ export default function ListItemWithImg({
         <div className="list-tasks">
           <p className="underline">Tasks:</p>
           {list.map((item, index) => {
-            return <li key={index}>{item}.</li>;
+            return <li key={index}>{item}</li>;
           })}
         </div>
       )}

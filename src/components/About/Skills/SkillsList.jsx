@@ -5,15 +5,15 @@ export default function SkillsList({ title, hasHr = true, list }) {
   return (
     <div className="skills-list">
       <h2 className="list-title">{title}</h2>
-      {list.map((item, index) => {
+      {list.map((skill, index) => {
         return (
           <SkillsListItem
             key={index}
-            icon={item.icon}
-            title={item.title}
-            text={item.text}
-            learned={item.learned}
-            learning={item.learning}
+            icon={skill.icon}
+            title={skill.title}
+            text={skill.text}
+            done={skill.done}
+            doing={skill.doing}
           />
         );
       })}

@@ -4,7 +4,7 @@ import ListItemWithImg from "../../ListItemWithImg/ListItemWithImg";
 export default function Certifications() {
   return (
     <div className="certifications">
-      <h2 className="list-title">Electrical Certifications</h2>
+      {/* <h2 className="list-title">Electrical Certifications</h2> */}
       <ListItemWithImg
         img={ewa}
         title="Electrical Installation Engineer License"

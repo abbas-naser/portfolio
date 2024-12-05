@@ -1,10 +1,10 @@
-.skill-learning {
+.doing {
   color: var(--pink);
 }
-.skill-learned {
+.done {
   color: var(--green);
 }
-.skill-learned-text {
+.done-text {
   text-decoration: line-through;
 }
 .skills-list-item {

@@ -17,14 +17,14 @@ export default function Profile() {
           <p className="profile-barnd-statement">{profile.brandStatement}</p>
           {/* porfile contact */}
           <div className="profile-contact">
-            {" "}
-            <p>Email: {profile.email}</p>
+            {/* <p>Email: {profile.email}</p> */}
             <p>
-              Linkedin:{" "}
+              <span className="bold">LinkedIn:{"  "}</span>
               <a
                 href={profile.linkedInAccount}
                 target="_blank"
                 rel="noreferrer"
+                className="no_underline"
               >
                 {profile.name}
               </a>

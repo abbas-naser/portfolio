@@ -1,25 +1,16 @@
 import "./SkillsListItem.css";
 
-export default function SkillsListItem({
-  icon,
-  title,
-  text,
-  learning,
-  learned,
-}) {
+export default function SkillsListItem({ icon, title, text, doing, done }) {
   return (
     <div
-      className={`skills-list-item ${learning ? "skill-learning" : ""} ${
-        learned ? "skill-learned" : ""
+      className={`skills-list-item ${doing ? "doing" : ""} ${
+        done ? "done" : ""
       }`}
     >
       <span className="material-symbols-outlined">{icon}</span>
       <div>
         {title && <span className="bold">{title}: </span>}
-        <span className={`${learned ? "skill-learned-text" : ""}`}>
-          {text}
-          {learning && " -Learning-"}
-        </span>
+        <span className={`${done ? "done-text" : ""}`}>{text}</span>
       </div>
     </div>
   );
