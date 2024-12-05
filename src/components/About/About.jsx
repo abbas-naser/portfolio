@@ -1,63 +1,32 @@
 import "./About.css";
+
+import Education from "./Education/Education";
+import Experience from "./Experience/Experience";
+import Certifications from "./Certifications/Certifications";
+import SectionGroupButtons from "../SectionGroupButtons/SectionGroupButtons";
+import Skills from "./Skills/Skills";
 import { useState } from "react";
-import Education from "../AboutComponents/Education/Education";
-import Certifications from "../AboutComponents/Certifications/Certifications";
-import Experience from "../AboutComponents/Experience/Experience";
-import Skills from "../AboutComponents/Skills/Skills";
 
 export default function About() {
-  const [aboutComponent, setAboutComponent] = useState("skills");
+  const [aboutComponentToShow, setAboutComponentToShow] = useState("skills");
+  const btns = ["skills", "education", "experience", "certifications"];
   return (
-    <div className="about-outer-container">
-      <div className="about-container">
-        {/* btns group */}
-        <div className="about-btns-group">
-          <h2 className="group-btns-title">About me</h2>
-          <button
-            className={
-              aboutComponent === "skills" ? "selected-about-btn" : undefined
-            }
-            onClick={() => setAboutComponent("skills")}
-          >
-            skills
-          </button>
-          <button
-            className={
-              aboutComponent === "education" ? "selected-about-btn" : undefined
-            }
-            onClick={() => {
-              setAboutComponent("education");
-            }}
-          >
-            education
-          </button>
+    <div id="about-section" className="about-section">
+      {/* btns group */}
+      <SectionGroupButtons
+        title="about"
+        btns={btns}
+        sectionId="about-section"
+        selectedBtnClassName="selected-group-btn"
+        componentToShowState={aboutComponentToShow}
+        setComponentToShowState={setAboutComponentToShow}
+      />
 
-          <button
-            className={
-              aboutComponent === "certifications"
-                ? "selected-about-btn"
-                : undefined
-            }
-            onClick={() => setAboutComponent("certifications")}
-          >
-            certifications
-          </button>
-          <button
-            className={
-              aboutComponent === "experience" ? "selected-about-btn" : undefined
-            }
-            onClick={() => setAboutComponent("experience")}
-          >
-            experience
-          </button>
-        </div>
-
-        <div id="" className="about-content">
-          {aboutComponent === "skills" && <Skills />}
-          {aboutComponent === "education" && <Education />}
-          {aboutComponent === "certifications" && <Certifications />}
-          {aboutComponent === "experience" && <Experience />}
-        </div>
+      <div className="about-content">
+        {aboutComponentToShow === "skills" && <Skills />}
+        {aboutComponentToShow === "education" && <Education />}
+        {aboutComponentToShow === "experience" && <Experience />}
+        {aboutComponentToShow === "certifications" && <Certifications />}
       </div>
     </div>
   );
