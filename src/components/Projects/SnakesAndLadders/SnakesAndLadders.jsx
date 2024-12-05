@@ -1,20 +1,19 @@
-import "./SnakesAndLadders.css";
 import play from "./images/play.png";
 import winner from "./images/winner.png";
-import homeLoggedOut from "../../ProjectsComponents/Memories/images/home-logged-out.png";
+import homeLoggedOut from "../Memories/images/home-logged-out.png";
 
 export default function SnakesAndLadders() {
   return (
     <div className="snakes-and-ladders-container">
       <img className="project-main-image" src={play} alt="project screenshot" />
-      <h2 className="content-title">Snakes & ladders</h2>
+      <h2 className="project-title">Snakes & ladders</h2>
       <p className="first-p">
         As our first project in the Software Engineering Immersive Program with
         General Assebmly, we where asked to build a game using{" "}
-        <span className="bold-text ">JavaScript, HTML and CSS</span> in one
-        week. The game that I chose to build was a game that mimics the known
-        "Snakes and Ladders" game, with the ability to play aginst another
-        person or against a computer.
+        <span className="bold">JavaScript, HTML and CSS</span> in one week. The
+        game that I chose to build was a game that mimics the known "Snakes and
+        Ladders" game, with the ability to play aginst another person or against
+        a computer.
       </p>
       {/* lessons learned */}
       <li className="project-subTitle">Playing the game</li>
@@ -70,11 +69,12 @@ export default function SnakesAndLadders() {
         to another subjects.
       </p>
       <br />
-      <p className="bold-text">
+      <p className="bold">
         Play the game (Desktop only):{" "}
         <a
-          href="https://abbas-naser.github.io/Snakes-and-Ladders/"
+          href="https://abbas-naser.github.io/snakes-and-ladders/"
           target="_blank"
+          rel="noreferrer"
         >
           Snakes & Ladders
         </a>
@@ -85,12 +85,9 @@ export default function SnakesAndLadders() {
         details were put on it, and lots of lessons has been learned.
       </p>
       <br />
-      <div className="go-up">
-        <a href="#projects">Go Up To Projects</a>
-      </div>
 
       {/* image is not shown, it is added here so it will be downloaded by the browser  */}
-      <img src={homeLoggedOut} style={{ display: "none" }} />
+      <img src={homeLoggedOut} alt="hidden" style={{ display: "none" }} />
     </div>
   );
 }

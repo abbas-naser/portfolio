@@ -3,9 +3,22 @@ footer {
   padding: 14px 0;
   border: none;
   width: 100%;
-  border-top: 2px solid var(--blue);
+  max-width: var(--max-width);
+  border-top: 1px solid var(--lighter-blue);
 }
-
-footer p {
-  text-align: center;
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.go-up {
+  position: absolute;
+  padding: 0 20px;
+  right: 0;
+}
+@media (min-width: 760px) {
+  .go-up {
+    padding: 0 80px;
+  }
 }

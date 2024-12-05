@@ -16,7 +16,7 @@ import SearchAlert from "./images/search-error-alert.png";
 import AlbumsMobile from "./images/albums-mobile.png";
 import AlbumsTablet from "./images/albums-tablet.png";
 import memory from "./images/memory.png";
-import unauthorized from "./images/unauthorized.png";
+import unauthorized from "./images/you-dont-have-access.png";
 import selectValidation from "./images/select-validation.png";
 import loginValidation from "./images/login-validation.png";
 
@@ -27,12 +27,7 @@ export default function Memories() {
     <div className="memories-container">
       <ImageWithSpinner src={homeLoggedOut} alt="project home screenshot" />
 
-      {/* <img
-        className="project-main-image"
-        src={homeLoggedOut}
-        alt="project home screenshot"
-      /> */}
-      <h2 className="content-title">Memories</h2>
+      <h2 className="project-title">Memories</h2>
       <p className="first-p">
         a space where users can create and share albums based on different
         themes or life events where they can add images and thoughts, An album
@@ -40,12 +35,17 @@ export default function Memories() {
         passed away people and much more. Albums can be private or public with
         three types of members each with different authorities. This project was
         built in less than two weeks with my colleague{" "}
-        <a href="https://www.linkedin.com/in/natheer-hasan/" target="_blanck">
+        <a
+          className="bold"
+          href="https://www.linkedin.com/in/natheer-hasan/"
+          target="_blanck"
+          rel="noreferrer"
+        >
           Natheer Hasan
         </a>{" "}
         as the capstone project for the Software Engineering Immersive Program
         with General Assebmly using{" "}
-        <span className="bold-text ">
+        <span className="bold ">
           JavaScript, HTML, CSS, React, React Bootstrap , Node.js, Express.js,
           MongoDB, Mongoose, JWT authentication, and Cloudinary.
         </span>
@@ -319,9 +319,6 @@ export default function Memories() {
         for learning.{" "}
       </p>
       <br />
-      <div className="go-up">
-        <a href="#projects">Go Up To Projects</a>
-      </div>
     </div>
   );
 }

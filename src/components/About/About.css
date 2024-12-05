@@ -1,63 +1,15 @@
-.about-outer-container {
+.about-section {
+  align-self: center;
 }
-.about-container {
-}
-.about-btns-group {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding: 8px 10px;
-  border-top: 2px solid var(--blue);
-  border-bottom: 2px solid var(--blue);
-}
-.about-btns-group button {
-  color: var(--blue);
-  background-color: var(--light-grey);
-  border: none;
-  text-transform: uppercase;
-  padding: 8px 16px;
-  border-radius: 40px;
-  /* background-color: white !important; */
-  font-family: "Lora", serif;
-  font-weight: 500;
-  font-size: 16px;
-}
-.selected-about-btn {
-  font-family: "Lora", serif;
-  font-weight: 700 !important;
-  background-color: var(--light-blue) !important;
-  color: var(--blue);
-  text-decoration: underline;
-  /* border: 1.5px solid var(--blue) !important; */
-}
-.about-btns-group button:hover {
-  color: var(--blue);
-  background-color: var(--light-blue) !important;
-}
-
 .about-content {
   padding: 20px 20px;
   max-width: var(--max-width);
   margin: 0 auto;
   min-height: 250px;
-}
-.about-hr {
-  border: none;
-  border-top: 1px solid rgb(187, 187, 187);
-  /* border-top: 1px solid var(--blue); */
-}
-.about-text-after-list {
-  padding-left: 22px;
+  animation: opacity var(--animation-duration);
 }
 
 @media (min-width: 760px) {
-  .about-btns-group button {
-    border: none;
-    text-transform: uppercase;
-  }
   .about-content {
     padding: 20px 80px;
   }

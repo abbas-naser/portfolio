@@ -1,16 +1,16 @@
-import "./App.css";
-import Profile from "./components/Profile/Profile";
+import Profile from "./components/Profile/Profile.jsx";
 import About from "./components/About/About";
-import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
+import "./App.css";
 export default function App() {
   return (
     <div className="App">
       <main>
         <Profile />
         <About />
-        <Projects id="projects-content" />
+        <Projects />
       </main>
       <Footer />
     </div>
