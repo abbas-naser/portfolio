@@ -15,22 +15,18 @@ export const highlightedSkill = [
   {
     icon: "code",
     title: "Programming languages",
-    text: "JavaScript, HTML, CSS, Python and Dart",
+    text: "JavaScript, HTML, CSS, Python, Dart",
   },
   {
     icon: "code_blocks",
     title: "Frameworks and Libraries",
-    text: "Express.js, React and Flutter",
+    text: "Flutter, React, Express",
   },
-  {
-    icon: "database",
-    title: "Databases",
-    text: "MongoDB, PostgreSQL",
-  },
+
   {
     icon: "analytics",
     title: "Data Analytics",
-    text: "SQL, Python, Excel, Power BI , Tableau, Pandas, API, Machine Learning",
+    text: "Python, Pandas, SQL, Excel",
   },
   {
     icon: "bar_chart",
@@ -38,28 +34,27 @@ export const highlightedSkill = [
     text: "Power BI, Tableau",
   },
   {
+    icon: "database",
+    title: "Databases",
+    text: "MongoDB, PostgreSQL",
+  },
+  {
     icon: "terminal",
     title: "Others",
-    text: "Github, Node.js, Mongoose, OAuth - Google Auth, JWT authentication, EJS, Cloudinary and Bootstrap",
+    text: "Node.js, Web Scraping (Selenium, BeautifulSoup), Large Language Models (LLM), Github, Mongoose, OAuth - Google Auth, JWT authentication, EJS, Cloudinary, Bootstrap",
   },
 ];
 
 export const toDo = [
   {
     icon: "clock_loader_10",
-    text: "Learn Data Analytics",
-    doing: true,
-    done: false,
-  },
-  {
-    icon: "clock_loader_10",
-    text: "Create a mobile app using Flutter to help student learn 'Tajweed'",
+    text: "Create a mobile app using Flutter to help student learn Tajweed",
     doing: true,
     done: false,
   },
   {
     icon: "radio_button_checked",
-    text: "Learn React Js",
+    text: "Learn Data Analytics",
     doing: false,
     done: true,
   },
