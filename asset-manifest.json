@@ -1,7 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d7ad73c0.css",
-    "main.js": "/portfolio/static/js/main.01bb1eb5.js",
+    "main.css": "/portfolio/static/css/main.f58ee9c5.css",
+    "main.js": "/portfolio/static/js/main.65d7b68f.js",
+    "static/media/Dashbord - Trends.png": "/portfolio/static/media/Dashbord - Trends.6a2825178e1b9fe151e0.png",
+    "static/media/Dashbord - Main.png": "/portfolio/static/media/Dashbord - Main.f06b03969bafab4dc2a9.png",
+    "static/media/se skills.png": "/portfolio/static/media/se skills.3f3f20355b05c4a721a7.png",
+    "static/media/Dashbord - Vacancies.png": "/portfolio/static/media/Dashbord - Vacancies.73d208eda1f7b4a50db6.png",
+    "static/media/da skills.png": "/portfolio/static/media/da skills.3a3877d00efac9624f8c.png",
     "static/media/memory.png": "/portfolio/static/media/memory.46aa4109a73fdfdc1a44.png",
     "static/media/albums.png": "/portfolio/static/media/albums.f62bae74aab3e8c29dde.png",
     "static/media/me.png": "/portfolio/static/media/me.c4c312715bc2d02c6c9e.png",
@@ -23,16 +28,18 @@
     "static/media/login-validation.png": "/portfolio/static/media/login-validation.4228f8778ec83180a9ec.png",
     "static/media/play.png": "/portfolio/static/media/play.c4b61dda234ac00d65e0.png",
     "static/media/you-dont-have-access.png": "/portfolio/static/media/you-dont-have-access.53513a2cae115fec6b9f.png",
+    "static/media/skills.png": "/portfolio/static/media/skills.5a8c0525fa65e4d09732.png",
     "static/media/ewa.png": "/portfolio/static/media/ewa.36057a3a59a961c223d4.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.8d50b3e1a907b535d7ef.jpg",
     "static/media/uob.png": "/portfolio/static/media/uob.a7cfd05bb898a39117a2.png",
     "static/media/aqua.png": "/portfolio/static/media/aqua.9bf35532873c45220cdf.png",
+    "static/media/se da jobs sources.png": "/portfolio/static/media/se da jobs sources.858f11092adfefe74041.png",
     "index.html": "/portfolio/index.html",
-    "main.d7ad73c0.css.map": "/portfolio/static/css/main.d7ad73c0.css.map",
-    "main.01bb1eb5.js.map": "/portfolio/static/js/main.01bb1eb5.js.map"
+    "main.f58ee9c5.css.map": "/portfolio/static/css/main.f58ee9c5.css.map",
+    "main.65d7b68f.js.map": "/portfolio/static/js/main.65d7b68f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ad73c0.css",
-    "static/js/main.01bb1eb5.js"
+    "static/css/main.f58ee9c5.css",
+    "static/js/main.65d7b68f.js"
   ]
 }
