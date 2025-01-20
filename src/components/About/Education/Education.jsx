@@ -2,7 +2,7 @@ import { education } from "../../../data";
 import ListItemWithImg from "../../ListItemWithImg/ListItemWithImg";
 export default function Education() {
   return (
-    <div className="education">
+    <div className="opacity-animation ">
       {education.map((educationItems, index) => {
         return (
           <ListItemWithImg

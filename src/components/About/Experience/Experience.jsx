@@ -4,7 +4,7 @@ import { experienses } from "../../../data";
 
 export default function Experience() {
   return (
-    <div className="experiense">
+    <div className="opacity-animation">
       {/* <h2 className="list-title">Electrical Experience</h2> */}
       {experienses.map((item, index) => {
         return (

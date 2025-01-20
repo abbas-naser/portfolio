@@ -45,6 +45,9 @@ a {
   text-decoration: underline;
   font-weight: normal;
 }
+li {
+  margin: 10px auto 0 auto;
+}
 .button-link-style {
   color: var(--blue);
   text-decoration: underline;
@@ -79,6 +82,9 @@ hr {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 12px;
+  /* text-transform: capitalize; */
+}
+.project-title:first-letter {
   text-transform: capitalize;
 }
 
@@ -92,13 +98,8 @@ hr {
 /***************************************
 animations
 ***************************************/
-.skills,
-.experiense,
-.education,
-.certifications,
-.snakes-and-ladders-container,
-.memories-container,
-.portfolio-container {
+
+.opacity-animation {
   animation: opacity var(--animation-duration);
 }
 @keyframes scale {

@@ -4,7 +4,7 @@ import homeLoggedOut from "../Memories/images/home-logged-out.png";
 
 export default function SnakesAndLadders() {
   return (
-    <div className="snakes-and-ladders-container">
+    <div className="opacity-animation">
       <img className="project-main-image" src={play} alt="project screenshot" />
       <h2 className="project-title">Snakes & ladders</h2>
       <p className="first-p">

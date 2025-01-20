@@ -6,7 +6,7 @@ import { toDo } from "../../../data";
 
 export default function Skills() {
   return (
-    <div className="skills">
+    <div className="opacity-animation ">
       {/* to learn */}
       <SkillsList title={`todo in ${new Date().getFullYear()} `} list={toDo} />
       {/* higlighted skills */}

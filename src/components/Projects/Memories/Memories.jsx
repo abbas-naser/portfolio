@@ -24,7 +24,7 @@ import ImageWithSpinner from "../../ImageWithSpinner/ImageWithSpinner";
 
 export default function Memories() {
   return (
-    <div className="memories-container">
+    <div className="opacity-animation">
       <ImageWithSpinner src={homeLoggedOut} alt="project home screenshot" />
 
       <h2 className="project-title">Memories</h2>
@@ -43,8 +43,17 @@ export default function Memories() {
         >
           Natheer Hasan
         </a>{" "}
-        as the capstone project for the Software Engineering Immersive Program
-        with General Assebmly using{" "}
+        as the Capstone project for the Software Engineering Immersive Program
+        with{" "}
+        <a
+          className="bold"
+          href="https://www.linkedin.com/company/general-assembly-middle-east/"
+          target="_blanck"
+          rel="noreferrer"
+        >
+          General Assembly Bahrain
+        </a>{" "}
+        using{" "}
         <span className="bold ">
           JavaScript, HTML, CSS, React, React Bootstrap , Node.js, Express.js,
           MongoDB, Mongoose, JWT authentication, and Cloudinary.

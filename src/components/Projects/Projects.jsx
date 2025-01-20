@@ -7,11 +7,17 @@ import Memories from "./Memories/Memories";
 import Portfolio from "./Portfolio/Portfolio";
 
 import SectionGroupButtons from "../SectionGroupButtons/SectionGroupButtons";
+import JobsInBahrain from "./JobsInBahrain/JobsInBahrain";
 
 export default function Projects() {
   const [projectToShow, setProjectToShow] = useState("snakes & ladders");
 
-  const projects = ["snakes & ladders", "memories", "portfolio"];
+  const projects = [
+    "Software VS Data Jobs in Bahrain",
+    "snakes & ladders",
+    "memories",
+    "portfolio",
+  ];
   return (
     <div id="projects-section" className="projects-section">
       {/* <hr /> */}
@@ -25,6 +31,9 @@ export default function Projects() {
       />
 
       <div className="projects-content">
+        {projectToShow === "Software VS Data Jobs in Bahrain" && (
+          <JobsInBahrain />
+        )}
         {projectToShow === "snakes & ladders" && <SnakesAndLadders />}
         {projectToShow === "memories" && <Memories />}
         {projectToShow === "portfolio" && <Portfolio />}
