@@ -10,7 +10,9 @@ import SectionGroupButtons from "../SectionGroupButtons/SectionGroupButtons";
 import JobsInBahrain from "./JobsInBahrain/JobsInBahrain";
 
 export default function Projects() {
-  const [projectToShow, setProjectToShow] = useState("snakes & ladders");
+  const [projectToShow, setProjectToShow] = useState(
+    "Software VS Data Jobs in Bahrain"
+  );
 
   const projects = [
     "Software VS Data Jobs in Bahrain",
