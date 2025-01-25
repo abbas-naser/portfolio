@@ -8,7 +8,7 @@ export default function Footer() {
           className="button-link-style go-up"
           onClick={() => window.scrollTo(0, 0)}
         >
-          Go Up
+          TOP
         </button>
       </div>
     </footer>

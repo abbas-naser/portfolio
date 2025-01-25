@@ -265,8 +265,8 @@ export default function Memories() {
       {/* validation */}
       <li className="project-subTitle">validation</li>
       <p>
-        Almost every input that is received in the server was validated to make
-        sure that the input received is as expected. Forms like login, signup,
+        every input that is received in the server was validated to make sure
+        that the input received is as expected. Forms like login, signup,
         creating album, adding memory and so on, all have validation done in the
         back-end to make sure that the user is authorized to do what he is
         trying to do, and that the information that he inputs is valid and
@@ -277,6 +277,8 @@ export default function Memories() {
       <div className="project-image-container">
         <img src={loginValidation} alt="login validation error" />
       </div>
+
+      {/*  
       <p>
         One of the examples is that when creating an album, the user has to
         choose whether the album should be "Private" or "Public" using a
@@ -290,6 +292,7 @@ export default function Memories() {
       <div className="project-image-container">
         <img src={selectValidation} alt="select validation error" />
       </div>
+      */}
 
       {/* lessons learned */}
       <li className="project-subTitle">lessons learned</li>

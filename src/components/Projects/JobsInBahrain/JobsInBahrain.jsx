@@ -49,6 +49,7 @@ export default function JobsInBahrain() {
           </li>
         </ul>
       </p>
+      <br />
       {/* Key Findings */}
       <p>
         <span className="">Key Findings: </span>
@@ -70,17 +71,25 @@ export default function JobsInBahrain() {
           </li>
         </ul>
       </p>
+      <br />
+      {/* Other Skills */}
       <li className="project-subTitle">Other Skills Required</li>
       <p>
-        the Word Clouds below shows the most required skills in Software
-        Engineering related jobs and Data related jobs respectively.
+        the Word Cloud below shows the most required skills in Software
+        Engineering related jobs.
       </p>
       <div className="project-image-container">
         <img src={seskills} alt="software skills required figure" />
       </div>
+      <br />
+      <p>
+        And the Word Cloud below shows the most required skills in Data related
+        jobs.
+      </p>
       <div className="project-image-container">
         <img src={daskills} alt="software skills required figure" />
       </div>
+      <br />
       {/* dashboard */}
       <li className="project-subTitle">Dashboard</li>
       <p>
