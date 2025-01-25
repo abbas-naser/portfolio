@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f58ee9c5.css",
-    "main.js": "/portfolio/static/js/main.0891578b.js",
+    "main.js": "/portfolio/static/js/main.ad747a78.js",
     "static/media/Dashbord - Trends.png": "/portfolio/static/media/Dashbord - Trends.6a2825178e1b9fe151e0.png",
     "static/media/Dashbord - Main.png": "/portfolio/static/media/Dashbord - Main.f06b03969bafab4dc2a9.png",
     "static/media/se skills.png": "/portfolio/static/media/se skills.3f3f20355b05c4a721a7.png",
@@ -36,10 +36,10 @@
     "static/media/se da jobs sources.png": "/portfolio/static/media/se da jobs sources.858f11092adfefe74041.png",
     "index.html": "/portfolio/index.html",
     "main.f58ee9c5.css.map": "/portfolio/static/css/main.f58ee9c5.css.map",
-    "main.0891578b.js.map": "/portfolio/static/js/main.0891578b.js.map"
+    "main.ad747a78.js.map": "/portfolio/static/js/main.ad747a78.js.map"
   },
   "entrypoints": [
     "static/css/main.f58ee9c5.css",
-    "static/js/main.0891578b.js"
+    "static/js/main.ad747a78.js"
   ]
 }
