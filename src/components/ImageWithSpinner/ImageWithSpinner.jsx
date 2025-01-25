@@ -7,15 +7,15 @@ export default function ImageWithSpinner({ src, alt }) {
   return (
     <div className="image-container-with-spinner">
       {loading && (
-        <div className="image-spinner">
+        <div className="spinner">
           <UploadingSpinner />
         </div>
       )}
       <img
         style={{ visibility: loading ? "hidden" : "visible" }}
-        className="project-main-image"
         src={src}
         alt={alt}
+        // when img loads completely, show it
         onLoad={() => setLoading(false)}
       />
     </div>

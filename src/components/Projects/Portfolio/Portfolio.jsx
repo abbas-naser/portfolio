@@ -3,8 +3,9 @@ export default function Portfolio() {
     <div className="opacity-animation">
       <h2 className="project-title">portfolio</h2>
       <p className="first-p">
-        this portfolio was created using <span className="bold">React</span> and
-        its being hosted on Github using Github Pages.
+        this portfolio was designed and created by myself using{" "}
+        <span className="bold">React</span> and its being hosted on Github using
+        Github Pages.
       </p>
     </div>
   );

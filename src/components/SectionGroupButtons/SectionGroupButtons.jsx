@@ -21,8 +21,8 @@ export default function SectionGroupButtons({
                   componentToShowState === btn ? selectedBtnClassName : ""
                 }
                 onClick={() => {
-                  const element = document.getElementById(sectionId);
-                  element.scrollIntoView({ behavior: "smooth" });
+                  // const element = document.getElementById(sectionId);
+                  // element.scrollIntoView({ behavior: "smooth" });
                   setComponentToShowState(btn);
                 }}
               >

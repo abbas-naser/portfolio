@@ -6,11 +6,17 @@
   align-items: center;
   min-height: 50px;
   /* margin: 0; */
-  /* width: 100%; */
+  width: 100%;
 }
-.image-spinner {
+.spinner {
   position: absolute;
 }
+.image-container-with-spinner img {
+  width: 100%;
+  max-width: 100%;
+  margin: 10px auto 0 auto;
+}
+
 @media (min-width: 700px) {
   .image-container-with-spinner {
     min-height: 300px;

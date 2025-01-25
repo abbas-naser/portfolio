@@ -5,13 +5,15 @@ import jobssource from "./images/se da jobs sources.png";
 import topSkills from "./images/skills.png";
 import seskills from "./images/se skills.png";
 import daskills from "./images/da skills.png";
+import ImageWithSpinner from "../../ImageWithSpinner/ImageWithSpinner";
+
 export default function JobsInBahrain() {
   return (
     <div className="opacity-animation">
-      <img className="project-main-image" src={main} alt="project screenshot" />
+      <ImageWithSpinner src={main} alt="project screenshot" />
       <h2 className="project-title">Software VS Data Jobs in Bahrain</h2>
       <p className="first-p">
-        As the Capstone project for the Data Analytics Bootcamp with{" "}
+        As my Capstone project for the Data Analytics Bootcamp with{" "}
         <a
           className="bold"
           href="https://www.linkedin.com/company/general-assembly-middle-east/"
@@ -59,36 +61,31 @@ export default function JobsInBahrain() {
             <span className="bold">Twice</span> than the jobs related to Data.
           </li>
           <li>LinkedIn has the highest number of job posts for both fields.</li>
-          <div className="project-image-container">
-            <img src={jobssource} alt="jobs sources figure" />
-          </div>
+          <br />
+          <ImageWithSpinner src={jobssource} alt="jobs sources figure" />
           <li>
             Python is the most required Skill in both fields, and (Python - AWS
             - SQL - Azure - Java) are common in both.
-            <div className="project-image-container">
-              <img src={topSkills} alt="top Skills required figure" />
-            </div>
+            <ImageWithSpinner
+              src={topSkills}
+              alt="top Skills required figure"
+            />
           </li>
         </ul>
       </p>
-      <br />
       {/* Other Skills */}
       <li className="project-subTitle">Other Skills Required</li>
       <p>
         the Word Cloud below shows the most required skills in Software
         Engineering related jobs.
       </p>
-      <div className="project-image-container">
-        <img src={seskills} alt="software skills required figure" />
-      </div>
+      <ImageWithSpinner src={seskills} alt="software skills required figure" />
       <br />
       <p>
         And the Word Cloud below shows the most required skills in Data related
         jobs.
       </p>
-      <div className="project-image-container">
-        <img src={daskills} alt="software skills required figure" />
-      </div>
+      <ImageWithSpinner src={daskills} alt="data skills required figure" />
       <br />
       {/* dashboard */}
       <li className="project-subTitle">Dashboard</li>
@@ -96,15 +93,21 @@ export default function JobsInBahrain() {
         This Dashboard was created to analyse job posts in Bahrain Ministry of
         Labor Website using Power BI.
       </p>
-      <div className="project-image-container">
-        <img src={main} alt="main dashbaord" />
-      </div>
-      <div className="project-image-container">
-        <img src={trends} alt="trends dashbaord" />
-      </div>
-      <div className="project-image-container">
-        <img src={vacancies} alt="vacancies dashbaord" />
-      </div>
+      <ImageWithSpinner src={main} alt="main dashbaord" />
+      <ImageWithSpinner src={trends} alt="trends dashbaord" />
+      <ImageWithSpinner src={vacancies} alt="vacancies dashbaord" />
+      <br />
+      {/* conclusion */}
+      <li className="project-subTitle">to conclude </li>
+      <p className="highlighted-p">
+        In this project, I developed a strong understanding of various
+        data-related concepts and skills, including data collection, cleaning,
+        analysis, and deriving meaningful insights. Additionally, I gained
+        hands-on experience with tools and technologies such as Python, Power
+        BI, web scraping using Selenium, and working with large language models
+        (LLM).
+      </p>
+      <br />
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import play from "./images/play.png";
 import winner from "./images/winner.png";
-import homeLoggedOut from "../Memories/images/home-logged-out.png";
+import ImageWithSpinner from "../../ImageWithSpinner/ImageWithSpinner";
 
 export default function SnakesAndLadders() {
   return (
     <div className="opacity-animation">
-      <img className="project-main-image" src={play} alt="project screenshot" />
+      <ImageWithSpinner src={play} alt="project screenshot" />
+      {/* <img className="project-image" src={play} alt="project screenshot" /> */}
       <h2 className="project-title">Snakes & ladders</h2>
       <p className="first-p">
         As our first project in the Software Engineering Immersive Program with
@@ -38,9 +39,9 @@ export default function SnakesAndLadders() {
         "Snake" or "Ladder" on it, and that block will be chosen randomly every
         time.
       </p>
-      <div className="project-image-container">
-        <img src={winner} alt="project screenshot" />
-      </div>
+
+      <ImageWithSpinner src={winner} alt="project screenshot" />
+
       <p>
         The player that finishes the game first is the winner of that round.
         Each game has three rounds, and the winner is the one who wins two times
@@ -85,9 +86,6 @@ export default function SnakesAndLadders() {
         details were put on it, and lots of lessons has been learned.
       </p>
       <br />
-
-      {/* image is not shown, it is added here so it will be downloaded by the browser  */}
-      <img src={homeLoggedOut} alt="hidden" style={{ display: "none" }} />
     </div>
   );
 }

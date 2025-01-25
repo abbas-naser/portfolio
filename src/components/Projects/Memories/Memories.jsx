@@ -1,5 +1,3 @@
-import "./Memories.css";
-
 import homeLoggedOut from "./images/home-logged-out.png";
 import HomeAfterSignUp from "./images/home-no-memories-alert.png";
 import homeWithMemories from "./images/home-with-memories.png";
@@ -116,9 +114,8 @@ export default function Memories() {
         color, such that it brings back the same feelings and emotions for the
         user and for others that can see this memory.
       </p>
-      <div className="project-image-container">
-        <img src={memory} alt="home after sign up" />
-      </div>
+
+      <ImageWithSpinner src={memory} alt="home after sign up" />
       <li className="project-subTitle">Why multiple Admins?</li>
       <p>
         Each album can have multiple "Admins", and one of the reasons is that we
@@ -144,12 +141,11 @@ export default function Memories() {
         creating albums. Once the user start joining albums, then memories from
         all albums he has joined will be shown in the homepage.
       </p>
-      <div className="project-image-container">
-        <img src={HomeAfterSignUp} alt="home after sign up" />
-      </div>
-      <div className="project-image-container">
-        <img src={homeWithMemories} alt="home with memories" />
-      </div>
+
+      <ImageWithSpinner src={HomeAfterSignUp} alt="home after sign up" />
+
+      <ImageWithSpinner src={homeWithMemories} alt="home with memories" />
+
       {/* albums page */}
       <li className="project-subTitle">Albums Page</li>
       <p>
@@ -164,9 +160,8 @@ export default function Memories() {
         new memories added to this album after the last time the user has
         visited this album.
       </p>
-      <div className="project-image-container">
-        <img src={AlbumsPage} alt="albums page" />
-      </div>
+      <ImageWithSpinner src={AlbumsPage} alt="AlbumsPage" />
+
       {/* album page */}
       <li className="project-subTitle">Album Page</li>
       <p>
@@ -179,21 +174,13 @@ export default function Memories() {
         can also change the role of other members to make them Admins, Posters
         or Members.
       </p>
-      <div className="project-image-container">
-        <img src={albumMemories} alt="album memories" />
-      </div>
-      <div className="project-image-container">
-        <img src={addingMemory} alt="adding memory component" />
-      </div>
-      <div className="project-image-container">
-        <img src={AlbumPage} alt="album page" />
-      </div>
-      <div className="project-image-container">
-        <img src={pendingMembers} alt="pending members" />
-      </div>
-      <div className="project-image-container">
-        <img src={pendingMemories} alt="pending memories" />
-      </div>
+
+      <ImageWithSpinner src={albumMemories} alt="album memories" />
+      <ImageWithSpinner src={addingMemory} alt="adding memory component" />
+      <ImageWithSpinner src={AlbumPage} alt="album page" />
+      <ImageWithSpinner src={pendingMembers} alt="pending members" />
+      <ImageWithSpinner src={pendingMemories} alt="pending memories" />
+
       {/* me page */}
       <li className="project-subTitle">Me Page</li>
       <p>
@@ -202,9 +189,8 @@ export default function Memories() {
         user has added in all the albums that he has created or joined, sorted
         by creation date.
       </p>
-      <div className="project-image-container">
-        <img src={MePage} alt="me page" />
-      </div>
+
+      <ImageWithSpinner src={MePage} alt="me page" />
       {/* search page */}
       <li className="project-subTitle">Search</li>
       <p>
@@ -218,12 +204,9 @@ export default function Memories() {
         show the album if it exist with the same options as searching by album
         name.
       </p>
-      <div className="project-image-container">
-        <img src={searchJoin} alt="search page" />
-      </div>
-      <div className="project-image-container">
-        <img src={SearchAlert} alt="search with alert " />
-      </div>
+
+      <ImageWithSpinner src={searchJoin} alt="search page" />
+      <ImageWithSpinner src={SearchAlert} alt="search with alert" />
       <p>
         Searching for a private album requires searching by album public ID. If
         the album searched for exist, then the user will see only the album name
@@ -235,9 +218,8 @@ export default function Memories() {
         that private album, then an alert will be shown to him telling him that
         he is already a member in that album.
       </p>
-      <div className="project-image-container">
-        <img src={searchPrivate} alt="search page" />
-      </div>
+      <ImageWithSpinner src={searchPrivate} alt="search page" />
+
       {/* responsiveness */}
       <li className="project-subTitle">responsiveness</li>
       <p>
@@ -245,8 +227,8 @@ export default function Memories() {
         in all screen sizes.
       </p>
       <div className="repsonsive-image-container">
-        <img src={AlbumsTablet} alt="albums in tablet view" />
-        <img src={AlbumsMobile} alt="albums in mobile view" />
+        <ImageWithSpinner src={AlbumsTablet} alt="albums in tablet view" />
+        <ImageWithSpinner src={AlbumsMobile} alt="albums in mobile view" />
       </div>
       {/* protecting albums */}
       <li className="project-subTitle">protecting albums</li>
@@ -259,9 +241,9 @@ export default function Memories() {
         album Id will be used to allow the user to request to join that album
         since the names of the albums are not unique by design.
       </p>
-      <div className="project-image-container">
-        <img src={unauthorized} alt="unauthorized error page" />
-      </div>
+
+      <ImageWithSpinner src={unauthorized} alt="unauthorized error page" />
+
       {/* validation */}
       <li className="project-subTitle">validation</li>
       <p>
@@ -274,9 +256,8 @@ export default function Memories() {
         and an alert will be shown to the user in the front-end to guid him
         about what he did wrong.{" "}
       </p>
-      <div className="project-image-container">
-        <img src={loginValidation} alt="login validation error" />
-      </div>
+
+      <ImageWithSpinner src={loginValidation} alt="login validation error" />
 
       {/*  
       <p>
@@ -289,9 +270,7 @@ export default function Memories() {
         created and he will get an error message instead.
       </p>
 
-      <div className="project-image-container">
-        <img src={selectValidation} alt="select validation error" />
-      </div>
+      <ImageWithSpinner src={selectValidation} alt=""select validation error" />
       */}
 
       {/* lessons learned */}
