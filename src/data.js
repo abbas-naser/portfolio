@@ -48,7 +48,7 @@ export const highlightedSkill = [
 export const toDo = [
   {
     icon: "clock_loader_10",
-    text: "Create a mobile app using Flutter to help student learn Tajweed",
+    text: "Create a mobile app using Flutter to help people learn Tajweed",
     doing: true,
     done: false,
   },
