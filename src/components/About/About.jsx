@@ -14,7 +14,7 @@ export default function About() {
     <div id="about-section" className="about-section">
       {/* btns group */}
       <SectionGroupButtons
-        title="about"
+        title="About Me"
         btns={btns}
         sectionId="about-section"
         selectedBtnClassName="selected-group-btn"

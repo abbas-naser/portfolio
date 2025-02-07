@@ -28,7 +28,7 @@ export default function Projects() {
     <div id="projects-section" className="projects-section">
       {/* <hr /> */}
       <SectionGroupButtons
-        title="Projects"
+        title="Some Projects"
         btns={projects}
         sectionId="projects-section"
         componentToShowState={projectToShow}

@@ -5,8 +5,9 @@ import uob from "./images/uob.png";
 
 export const profile = {
   name: "Abbas Naser",
+
   brandStatement:
-    "Full-Stack Web Developer and Data Analyst with Electrical Engineering background. A fast learner motivated by solving problems that have an impact on people, business and myself.",
+    "Software Engineer and Data Analyst with Electrical Engineering background. A fast learner motivated by solving problems that have an impact on people, business and myself.",
   email: "",
   linkedInAccount: "http://www.linkedin.com/in/abbas-naser",
 };
